@@ -28,3 +28,12 @@ SourceFile 8 main.zil      6
 SourceFile 9 parser.zil    7
 SourceFile 10 syntax.zil   3
 SourceFile 11 verbs.zil    9
+
+
+Object 11 GLOBAL-OBJECTS
+Object 98 PSEUDO-OBJECT
+Object 110 ROOMS
+Object 111 LOCAL-GLOBALS
+Object 239 ADVENTURER
+
+Global 151 C-TABLE  TABLE
