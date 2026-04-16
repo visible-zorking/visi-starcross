@@ -30,6 +30,7 @@ SourceFile 10 syntax.zil   3
 SourceFile 11 verbs.zil    9
 
 
+Object 10 SPACESHIP-QUARTERS
 Object 11 GLOBAL-OBJECTS
 Object 98 PSEUDO-OBJECT
 Object 110 ROOMS
