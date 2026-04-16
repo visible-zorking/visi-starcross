@@ -11,12 +11,12 @@
 function gamedat_ids_general(gamedat_ids)
 {
     gamedat_ids.GAMEID = 'starcross-r15-s820901';
-    gamedat_ids.MAX_OBJECTS = 250;         // "Object count"
-    gamedat_ids.MAX_GLOBALS = 158;         // 1+LastGlobal
-    gamedat_ids.DICT_START = 15137;        // header word $08
+    gamedat_ids.MAX_OBJECTS = 239;         // "Object count"
+    gamedat_ids.MAX_GLOBALS = 179;         // 1+LastGlobal
+    gamedat_ids.DICT_START = 13156;        // header word $08
     gamedat_ids.DICT_WORD_SIZE = 7;
-    gamedat_ids.PROP_TABLE_START = 0x0BB8; // prop address for first obj
-    gamedat_ids.PROP_TABLE_END = 0x2270;   // just before globals, header $0C-1
+    gamedat_ids.PROP_TABLE_START = 0x0B6B; // prop address for first obj
+    gamedat_ids.PROP_TABLE_END = 0x212D;   // just before globals, header $0C-1
 }
 
 /* Set up values defined in the ZIL code. This must be called after
