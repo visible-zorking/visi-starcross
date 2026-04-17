@@ -270,7 +270,7 @@ Object 237 UM24
 Object 238 REGISTRATION
 Object 239 ADVENTURER
 
-Global 0 HERE
+Global 0 HERE  OBJ
 Global 1 SCORE
 Global 2 MOVES
 
