@@ -22,7 +22,7 @@ export function AboutPage()
         map.set(tup.onum, tup);
     }
     
-    let advroom: number = gamedat_ids.PLAYER;
+    let advroom: number = gamedat_ids.ADVENTURER;
     while (true) {
         let tup = map.get(advroom);
         if (!tup || tup.parent == 0 || tup.parent == gamedat_ids.ROOMS)
@@ -30,14 +30,14 @@ export function AboutPage()
         advroom = tup.parent;
     }
 
-    if (advroom != gamedat_ids.PLAYER) {
+    if (advroom != gamedat_ids.ADVENTURER) {
         let obj = gamedat_object_ids.get(advroom);
         if (obj) {
             curroom = obj.name;
         }
 
         let child = map.get(advroom)!.child;
-        if (child && child == gamedat_ids.PLAYER) {
+        if (child && child == gamedat_ids.ADVENTURER) {
             child = map.get(child)!.sibling;
         }
 
@@ -73,12 +73,12 @@ export function AboutPage()
             <div className="AboutPage">
                 <h2>What&#x2019;s going on?</h2>
                 <p>
-                    You are playing Deadline, the classic Infocom text adventure.
+                    You are playing Starcross, the classic Infocom text adventure.
                     And you are watching the Z-machine execute the game,
                     live, as you play.
                 </p>
                 <p>
-                    (In case it&#x2019;s not obvious: <em>SPOILERS</em> for Deadline.
+                    (In case it&#x2019;s not obvious: <em>SPOILERS</em> for Starcross.
                     The source code gives away every secret and solution in the game.
                     The whole point of this project is to demonstrate how
                     Infocom games work!)
@@ -104,7 +104,7 @@ export function AboutPage()
                        <>(Try typing &#x201C;<code>EXAMINE { firstobj }</code>&#x201D;!) </>
                        : null) }
                     Objects you pick up will be listed directly under
-                    the <code>PLAYER</code>; they will move with
+                    the <code>ADVENTURER</code>; they will move with
                     you as part of your inventory.
                 </p>
                 <p>
@@ -124,7 +124,7 @@ export function AboutPage()
                 <p>
                     Click on any function, object, or variable to see its
                     definition in the source code. Click on an object&#x2019;s
-                    {' '}<ObjPageLink onum={ 160 } /> button
+                    {' '}<ObjPageLink onum={ 239 } /> button
                     to see its current state and place in the world.
                     (This will initially match the source code, but
                     may change as you interact with the game.)
@@ -132,7 +132,7 @@ export function AboutPage()
                 <p>
                     <Commentary topic={ 'ABOUT' } />
                     Click on the green buttons to see commentary about
-                    Deadline&#x2019;s implementation. Notes, trivia, whatever came
+                    Starcross&#x2019;s implementation. Notes, trivia, whatever came
                     into my head as I was building the Visible Zorker!
                 </p>
                 <h2>The evidence file</h2>
@@ -142,26 +142,26 @@ export function AboutPage()
                 </p>
                 <h2>Which version is this?</h2>
                 <p>
-                    ###Deadline was the first non-Zork game created by Infocom.
+                    Starcross was the second non-Zork game created by Infocom.
                     As with Zork, it was built using a proprietary system
                     called{' '}
                     <ExtWebLink url={ 'https://blog.zarfhome.com/2019/04/what-is-zil-anyway' } text={ 'ZIL' } />.
                     (For &#x201C;Zork Implementation Language&#x201D;.)
                 </p>
                 <p>
-                    The game was originally released in 1982.
-                    The version you see here dates from 1983. (The serial number
-                    &#x201C;831005&#x201D; shows the compile date.)
+                    This is the first known version, released in 1982.
+                    (The serial number
+                    &#x201C;820901&#x201D; shows the compile date.)
                 </p>
                 <p>
-                    This 1983 release is
-                    the one most commonly seen today,
-                    because it was included in the &#x201C;
+                    A slightly later release (&#x201C;821021&#x201D;)
+                    was included in the &#x201C;
                     <ExtWebLink url={ 'https://archive.org/details/lost-treasures-of-infocom' } text={ 'Lost Treasures of Infocom' } />
                     &#x201D; collection and later collections.
-                    I have therefore selected it for this exhibit.
+                    However, we do not have the source code for that
+                    release, so I selected the original for this exhibit.
                     Archived evidence indicates that Infocom continued
-                    updating the source until at least 1985.
+                    updating the source into early 1983.
                 </p>
                 <h2>Sources and acknowledgements</h2>
                 <p>
@@ -198,7 +198,7 @@ export function AboutPage()
                 <p>
                     Feelie scans courtesy of the{' '}
                     <ExtWebLink url={ 'https://infodoc.plover.net/manuals/' } text={ 'InfoDoc Project' } />
-                    {' '}and ###.
+                    {' '}.
                 </p>
                 <p>
                     Starcross itself was originally written by Dave Lebling.
