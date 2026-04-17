@@ -96,7 +96,7 @@ export function AboutPage()
                     {' '}<a className="Internal" href="#" onClick={ (ev)=>evhan_click_tab(ev, 'objtree') }>World</a>{' '}
                     tab for a start.
                     This shows every object and room in the game.
-                    You, the Player, are in the topmost room:{' '}
+                    You, the Adventurer, are in the topmost room:{' '}
                     <code>{ curroom }</code>.
                     Listed with you are the objects you
                     can see.{' '}
@@ -135,10 +135,15 @@ export function AboutPage()
                     Starcross&#x2019;s implementation. Notes, trivia, whatever came
                     into my head as I was building the Visible Zorker!
                 </p>
-                <h2>The evidence file</h2>
+                <h2>The mass detector chart</h2>
                 <p>
                     The <a className="Internal" href="#" onClick={ (ev)=>evhan_click_tab(ev, 'feelies') }>Feelies</a>{' '}
-                    tab is particularly important. ###
+                    tab is particularly important. Starcross originally
+                    came with a coordinate chart (the &#x201C;mass
+                    detector output&#x201D; you will find) which served both
+                    as game prop and copy protection. The Feelies tab
+                    contains links to this document, as well as other
+                    commands you will need to play.
                 </p>
                 <h2>Which version is this?</h2>
                 <p>
