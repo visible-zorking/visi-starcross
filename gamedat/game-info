@@ -290,7 +290,7 @@ Global 74 POISON-COUNT
 Global 75 TARGET
 
 Global 84 PRSO
-
+Global 85 P-WON
 Global 86 TARGETS
 Global 87 VIEW-SCREEN-VIEWS
 
@@ -298,7 +298,12 @@ Global 102 POISON-AIRS
 Global 103 AIR-COUNT
 
 Global 114 PRSA
+Global 115 C-DEMONS
+
+Global 128 C-INTS
 
 Global 139 SPEEDS
 
 Global 151 C-TABLE  TABLE
+
+Global 166 CLOCK-WAIT
