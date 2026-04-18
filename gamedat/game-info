@@ -56,7 +56,7 @@ Object 23 RELIEF
 Object 24 COMPUTER
 Object 25 AX87
 Object 26 PINK-SLOT
-# Object 27: "Floating in Air" AXIS-1 AXIS-2 AXIS-3
+Object 27 AXIS-2
 Object 28 SILVER-SLOT
 Object 29 PANEL
 Object 30 ENV-COMPUTER
@@ -92,7 +92,7 @@ Object 59 UM28
 Object 60 MISSION-STATUS
 Object 61 IT
 Object 62 GREEN-SLOT
-# Object 63: "Floating in Air" AXIS-1 AXIS-2 AXIS-3
+Object 63 AXIS-3
 Object 64 UMBILICAL
 Object 65 FF-DIAL
 Object 66 RED-DISK
@@ -141,7 +141,7 @@ Object 108 WINDOW
 Object 109 DEBRIS
 Object 110 ROOMS
 Object 111 LOCAL-GLOBALS
-# Object 112: "Floating in Air" AXIS-1 AXIS-2 AXIS-3
+Object 112 AXIS-1
 Object 113 DRIVE-BUBBLE
 Object 114 SILVER-KEY
 Object 115 GREEN-YELLOW-ONE
