@@ -30,6 +30,9 @@ function gamedat_ids_specific(gamedat_ids)
     gamedat_ids.GLOBAL_OBJECTS = gamedat_object_names.get('GLOBAL-OBJECTS').onum;
     gamedat_ids.LOCAL_GLOBALS = gamedat_object_names.get('LOCAL-GLOBALS').onum;
     gamedat_ids.ADVENTURER = gamedat_object_names.get('ADVENTURER').onum;
+    gamedat_ids.SPIDER = gamedat_object_names.get('SPIDER').onum;
+    gamedat_ids.CHIEF = gamedat_object_names.get('CHIEF').onum;
+    gamedat_ids.MOUSE = gamedat_object_names.get('MOUSE').onum;
     gamedat_ids.STARTROOM = gamedat_object_names.get('SPACESHIP-QUARTERS').onum;
     gamedat_ids.PSEUDO_OBJECT = gamedat_object_names.get('PSEUDO-OBJECT').onum;
 

@@ -10,8 +10,7 @@ import { gamedat_ids, gamedat_distances, gamedat_object_treesort } from '../visi
 export function contains_label(obj: ObjectData) : string
 {
     if (!obj.isroom) {
-        // ...or other NPCs
-        if (obj.onum == gamedat_ids.ADVENTURER)
+        if (obj.onum == gamedat_ids.ADVENTURER || obj.onum == gamedat_ids.SPIDER || obj.onum == gamedat_ids.CHIEF || obj.onum == gamedat_ids.MOUSE)
             return 'carries';
         else
             return 'contains'
