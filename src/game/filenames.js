@@ -1,0 +1,3 @@
+window.gamedat_sourcefile_keymap = {"sf.zil":"A","actions.zil":"B","clock.zil":"C","crufty.zil":"D","dungeon.zil":"E","emerg.zil":"F","macros.zil":"G","main.zil":"H","parser.zil":"I","syntax.zil":"J","verbs.zil":"K"};
+window.gamedat_sourcefile_capkeymap = {"SF":"A","ACTIONS":"B","CLOCK":"C","CRUFTY":"D","DUNGEON":"E","EMERG":"F","MACROS":"G","MAIN":"H","PARSER":"I","SYNTAX":"J","VERBS":"K"};
+window.gamedat_sourcefile_revkeymap = {"A":"sf.zil","B":"actions.zil","C":"clock.zil","D":"crufty.zil","E":"dungeon.zil","F":"emerg.zil","G":"macros.zil","H":"main.zil","I":"parser.zil","J":"syntax.zil","K":"verbs.zil"};
