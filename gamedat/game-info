@@ -241,8 +241,8 @@ Object 208 GRUE-CAGE
 Object 209 PROJECTOR
 # Object 210: "bowl" FF-BOWL-2 FF-BOWL-3 FF-BOWL-4
 Object 211 BLUE-RED-FOUR
-# Object 212: "maintenance mouse" GLOBAL-MOUSE MOUSE
-# Object 213: "maintenance mouse" GLOBAL-MOUSE MOUSE
+Object 212 MOUSE
+Object 213 GLOBAL-MOUSE
 Object 214 BROWN-KEY
 Object 215 GREEN-FOUR
 Object 216 MAZE
