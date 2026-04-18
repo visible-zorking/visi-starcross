@@ -53,13 +53,13 @@ Object 20 RED-THREE
 Object 21 BLUE-OUTER
 Object 22 BABY-BUMP
 Object 23 RELIEF
-# Object 24: "computer" COMPUTER ENV-COMPUTER
+Object 24 COMPUTER
 Object 25 AX87
 Object 26 PINK-SLOT
 # Object 27: "Floating in Air" AXIS-1 AXIS-2 AXIS-3
 Object 28 SILVER-SLOT
 Object 29 PANEL
-# Object 30: "computer" COMPUTER ENV-COMPUTER
+Object 30 ENV-COMPUTER
 Object 31 FORCE-FIELD-2
 Object 32 GREEN-FIVE
 Object 33 GREEN-DOCK
