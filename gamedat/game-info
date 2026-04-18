@@ -287,8 +287,8 @@ Property 18 GLOBAL  OBJS
 Property 19 ADJECTIVE  ADJS
 Property 20 ACTION  RTN
 Property 21 SYNONYM  WORDS
-### Property 22
-### Property 23
+Property 22 PROP22  UNUSED
+Property 23 PROP23  UNUSED
 Property 24 OUT  DIR
 Property 25 IN  DIR
 Property 26 DOWN  DIR
