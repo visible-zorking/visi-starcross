@@ -507,9 +507,16 @@ Global 178 VERBS  table created from SYNTAX
 
 # Argument type info for routines that are hard to guess.
 
+###
 
 # Map connections that don't come directly from room properties.
 # (These are used for the "list rooms in order of closeness to you"
 # display tab.)
+
+MapExtraConn - SPACESHIP-BRIDGE EAST SPACESHIP-STORES
+MapExtraConn - SPACESHIP-BRIDGE WEST SPACESHIP-QUARTERS
+MapExtraConn - SPACESHIP-BRIDGE SOUTH SPACESHIP-AIRLOCK
+MapExtraConn - SPACESHIP-AIRLOCK OUT DEEP-SPACE
+MapExtraConn - SPACESHIP-AIRLOCK OUT RED-DOCK
 
 
