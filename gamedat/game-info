@@ -283,7 +283,7 @@ Global 9 R-VALUE
 Global 10 MASS
 Global 11 INDENTS
 Global 12 VERBOSE
-### Global 13 ### P-ADJN, P-CSPTR, P-CEPTR
+Global 13 P-ADJN
 Global 14 P-LEN
 ### Global 15 ### L-PRSA, L-PRSO, L-PRSI
 Global 16 COURSE-SHAPE
@@ -352,7 +352,7 @@ Global 77 IN-ARTIFACT?
 Global 78 UNDER-GLOBE
 Global 79 VIEW-TABLE
 Global 80 TRIP-DESCS
-### Global 81 ### P-ADJN, P-CSPTR, P-CEPTR
+Global 81 P-CSPTR
 Global 82 P-PRSI
 Global 83 P-ADJECTIVE
 Global 84 PRSO
@@ -380,7 +380,7 @@ Global 105 ACTIVITY?
 Global 106 FF-STRENGTH
 Global 107 LONG-MOUSE  STR
 Global 108 HELLOS
-### Global 109 ### P-ADJN, P-CSPTR, P-CEPTR
+Global 109 P-CEPTR
 Global 110 P-AADJ
 Global 111 P-ACLAUSE
 Global 112 P-ONEOBJ
