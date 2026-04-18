@@ -277,7 +277,7 @@ Global 3 LIGHT-AIRS
 Global 4 VIEW-STATUS
 Global 5 DOOR-SOLVED?
 Global 6 MFOLLOW
-### Global 7 ### TAPE-ON, TAPES
+Global 7 TAPE-ON
 Global 8 SEAT-BELT?
 Global 9 R-VALUE
 Global 10 MASS
@@ -365,8 +365,8 @@ Global 90 GARAGED?
 Global 92 P-ITBL
 ### Global 93 ### P-ADVERB, P-SPACE, P-DIR
 Global 94 MELTED?
-### Global 95 ### ALIENS-DESCRIBED?, HUSTLED?
-### Global 96 ### TAPE-ON, TAPES
+Global 95 HUSTLED?
+Global 96 TAPES
 Global 97 COMPUTER-ON
 Global 98 WHEEEEE
 ### Global 99 ###
@@ -437,7 +437,7 @@ Global 163 P-OCLAUSE
 Global 164 P-BUTS
 Global 165 P-WALK-DIR
 Global 166 CLOCK-WAIT
-### Global 167 ### ALIENS-DESCRIBED?, HUSTLED?
+Global 167 ALIENS-DESCRIBED?
 Global 168 YELLOW-OPEN?
 Global 169 NUMTAB
 Global 170 FF-FALLS
