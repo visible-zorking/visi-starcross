@@ -111,7 +111,8 @@ Object 76 BROWN-SLOT
 Object 79 FORCE-FIELD-4
 Object 80 FF-ROOM
 # Object 81: "Outskirts of Village" VILLAGE-N-EDGE VILLAGE-NW-EDGE VILLAGE-NE-EDGE VILLAGE-SW-EDGE VILLAGE-SE-EDGE VILLAGE-S-EDGE
-# Object 82: "" GLOBAL-OBJECTS LOCAL-GLOBALS ROOMS
+# Obj 82 is not defined or used anywhere; not sure why the compiler generated it.
+Object 82 UNDEFINED-OBJECT
 Object 83 YELLOW-OUTER
 Object 84 BLACK-KEY
 Object 85 UM31
