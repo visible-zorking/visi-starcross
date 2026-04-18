@@ -362,7 +362,7 @@ Global 87 VIEW-SCREEN-VIEWS
 Global 88 RATS-MAD?
 Global 89 THAT-END
 Global 90 GARAGED?
-### Global 91 ###
+Global 91 SUPER-BRIEF
 Global 92 P-ITBL
 Global 93 P-DIR
 Global 94 MELTED?
@@ -385,7 +385,7 @@ Global 110 P-AADJ
 Global 111 P-ACLAUSE
 Global 112 P-ONEOBJ
 Global 113 P-SPACE
-### Global 114 ###
+Global 114 PRSA
 Global 115 C-DEMONS
 Global 116 RED-DISK-ON
 Global 117 SLOT-TABLE
@@ -414,7 +414,7 @@ Global 139 SPEEDS
 Global 140 NIGHT?
 Global 141 THETA-VALUE
 ### Global 142 ### L-PRSA, L-PRSO, L-PRSI
-### Global 143 ###
+Global 143 ZAP-NUMS
 Global 144 CHPATH
 Global 145 CHWAIT
 Global 146 FF-TABLE
