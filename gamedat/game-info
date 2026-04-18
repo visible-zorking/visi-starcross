@@ -282,7 +282,7 @@ Global 8 SEAT-BELT?
 Global 9 R-VALUE
 Global 10 MASS
 Global 11 INDENTS
-### Global 12 ###
+Global 12 VERBOSE
 ### Global 13 ### P-ADJN, P-CSPTR, P-CEPTR
 Global 14 P-LEN
 ### Global 15 ### L-PRSA, L-PRSO, L-PRSI
@@ -290,7 +290,7 @@ Global 16 COURSE-SHAPE
 Global 17 SUIT-ON?
 Global 18 P-CCSRC
 Global 19 PRSI
-### Global 20 ###
+Global 20 BIGFIX
 Global 21 CONTROL-SCORE
 Global 22 FF-HERE
 Global 23 COUNTDOWN
@@ -338,7 +338,7 @@ Global 63 MASSNUM
 Global 64 P-VTBL
 Global 65 P-LEXV
 Global 66 P-SYNTAX
-### Global 67 ### P-ADVERB, P-SPACE, P-DIR
+Global 67 P-ADVERB
 ### Global 68 ###
 Global 69 ALWAYS-LIT
 Global 70 MASS-LOCS
@@ -364,7 +364,7 @@ Global 89 THAT-END
 Global 90 GARAGED?
 ### Global 91 ###
 Global 92 P-ITBL
-### Global 93 ### P-ADVERB, P-SPACE, P-DIR
+Global 93 P-DIR
 Global 94 MELTED?
 Global 95 HUSTLED?
 Global 96 TAPES
@@ -384,7 +384,7 @@ Global 108 HELLOS
 Global 110 P-AADJ
 Global 111 P-ACLAUSE
 Global 112 P-ONEOBJ
-### Global 113 ### P-ADVERB, P-SPACE, P-DIR
+Global 113 P-SPACE
 ### Global 114 ###
 Global 115 C-DEMONS
 Global 116 RED-DISK-ON
@@ -447,7 +447,7 @@ Global 172 P-NCN
 Global 173 P-OFLAG
 Global 174 KNOWNS
 Global 175 PREPOSITIONS
-### Global 176 ### ACTIONS, PREACTIONS
-### Global 177 ### ACTIONS, PREACTIONS
+Global 176 ACTIONS
+Global 177 PREACTIONS
 Global 178 VERBS
 
