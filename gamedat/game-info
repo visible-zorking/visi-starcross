@@ -47,7 +47,7 @@ Object 14 ZAP-GUN
 Object 15 THRONE-ROOM
 Object 16 GARAGE
 # Object 17: "Outskirts of Village" VILLAGE-N-EDGE VILLAGE-NW-EDGE VILLAGE-NE-EDGE VILLAGE-SW-EDGE VILLAGE-SE-EDGE VILLAGE-S-EDGE
-# Object 18: "weasel chieftain" CHIEF GLOBAL-CHIEF
+Object 18 GLOBAL-CHIEF
 Object 19 BLUE-RED-TWO
 # Object 20: "Red Hall" RED-ONE RED-TWO RED-THREE RED-FOUR RED-FIVE
 Object 21 BLUE-OUTER
@@ -198,7 +198,7 @@ Object 165 SMOKED-GLASS
 # Object 166: "Blue Hall" BLUE-ONE BLUE-ONE-TWO BLUE-TWO BLUE-THREE BLUE-FOUR BLUE-FIVE
 # Object 167: "Red Hall" RED-ONE RED-TWO RED-THREE RED-FOUR RED-FIVE
 Object 168 SAFETY-HOOK
-# Object 169: "weasel chieftain" CHIEF GLOBAL-CHIEF
+Object 169 CHIEF
 Object 170 WALL
 Object 171 WHITE-KEY
 # Object 172: "Outskirts of Village" VILLAGE-N-EDGE VILLAGE-NW-EDGE VILLAGE-NE-EDGE VILLAGE-SW-EDGE VILLAGE-SE-EDGE VILLAGE-S-EDGE
@@ -504,4 +504,12 @@ Global 175 PREPOSITIONS  table created from SYNTAX
 Global 176 ACTIONS  table created from SYNTAX
 Global 177 PREACTIONS  table created from SYNTAX
 Global 178 VERBS  table created from SYNTAX
+
+# Argument type info for routines that are hard to guess.
+
+
+# Map connections that don't come directly from room properties.
+# (These are used for the "list rooms in order of closeness to you"
+# display tab.)
+
 
