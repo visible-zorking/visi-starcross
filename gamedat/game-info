@@ -339,7 +339,8 @@ Global 64 P-VTBL
 Global 65 P-LEXV
 Global 66 P-SYNTAX
 Global 67 P-ADVERB
-### Global 68 ###
+# Really GWIM-DISABLE and HS are ambiguous
+Global 68 GWIM-DISABLE  UNUSED
 Global 69 ALWAYS-LIT
 Global 70 MASS-LOCS
 Global 71 LOW-DIRECTION
@@ -370,7 +371,7 @@ Global 95 HUSTLED?
 Global 96 TAPES
 Global 97 COMPUTER-ON
 Global 98 WHEEEEE
-### Global 99 ###
+Global 99 HS  UNUSED
 Global 100 SCORE-MAX
 Global 101 QUOTE-FLAG
 Global 102 POISON-AIRS
