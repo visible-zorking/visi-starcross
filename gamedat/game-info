@@ -511,8 +511,10 @@ RoutineType - AIRLOCK-OPEN OBJ OBJ OBJ
 RoutineType - CLAUSE - - WORD
 RoutineType - DDESC OBJ
 RoutineType - DESCRIBE-LOCK STR OBJ OBJ
+RoutineType - DO-WALK PROP
 RoutineType - FIND-DESTINATION TABLE TABLE
 RoutineType - FIND-IN OBJ ATTR
+RoutineType - FIND-ROOM OBJ
 RoutineType - GWIM - - PREP
 RoutineType - JIGS-UP STR
 RoutineType - KNOWN-COURSE OBJ
@@ -523,6 +525,7 @@ RoutineType - PICK-ONE TABLE
 RoutineType - RIPOFF OBJ OBJ
 RoutineType - ROB OBJ OBJ
 RoutineType - SYNTAX-FOUND GLINE
+RoutineType - V-CLIMB-UP PROP
 RoutineType - WT? WORD - -
 
 # Map connections that don't come directly from room properties.
