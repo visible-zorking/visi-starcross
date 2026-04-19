@@ -410,10 +410,10 @@ Global 82 P-PRSI  TABLE
 Global 83 P-ADJECTIVE
 Global 84 PRSO  PRSO
 Global 85 P-WON
-Global 86 TARGETS
+Global 86 TARGETS  DATA
 Global 87 VIEW-SCREEN-VIEWS  DATA
 Global 88 RATS-MAD?
-Global 89 THAT-END
+Global 89 THAT-END  OBJ
 Global 90 GARAGED?
 Global 91 SUPER-BRIEF
 Global 92 P-ITBL  TABLE
@@ -444,7 +444,7 @@ Global 116 RED-DISK-ON
 Global 117 SLOT-TABLE  DATA
 Global 118 HUNTER-COUNT
 Global 119 ABOUT-SAME  STR
-Global 120 THIS-END
+Global 120 THIS-END  OBJ
 Global 121 DOCKED?
 Global 122 BURN-COMING  STR
 Global 123 YUKS  DATA
@@ -457,7 +457,7 @@ Global 129 KNOWN-LOCS  DATA
 Global 130 AMMONIA-TABLE  DATA
 Global 131 GOT-KEY?
 Global 132 FRIED?
-Global 133 DESTINATION
+Global 133 DESTINATION  OBJ
 Global 134 COMPUTER-COUNT
 Global 135 P-GETFLAGS
 Global 136 P-PRSO  TABLE
@@ -507,7 +507,22 @@ Global 178 VERBS  table created from SYNTAX
 
 # Argument type info for routines that are hard to guess.
 
-###
+RoutineType - AIRLOCK-OPEN OBJ OBJ OBJ
+RoutineType - CLAUSE - - WORD
+RoutineType - DDESC OBJ
+RoutineType - DESCRIBE-LOCK STR OBJ OBJ
+RoutineType - FIND-DESTINATION TABLE TABLE
+RoutineType - GWIM - - PREP
+RoutineType - JIGS-UP STR
+RoutineType - KNOWN-COURSE OBJ
+RoutineType - LKP OBJ TABLE
+RoutineType - ORDINAL WORD
+RoutineType - PERFORM ACTION PERFORMO PERFORMI
+RoutineType - PICK-ONE TABLE
+RoutineType - RIPOFF OBJ OBJ
+RoutineType - ROB OBJ OBJ
+RoutineType - SYNTAX-FOUND GLINE
+RoutineType - WT? WORD - -
 
 # Map connections that don't come directly from room properties.
 # (These are used for the "list rooms in order of closeness to you"
