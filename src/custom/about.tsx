@@ -203,8 +203,9 @@ export function AboutPage()
                 </p>
                 <p>
                     Feelie scans courtesy of the{' '}
-                    <ExtWebLink url={ 'https://www.mocagh.org/loadpage.php?getgame=starcrossfolio' } text={ 'Museum of Computer Adventure Game History' } />
-                    .
+                    <ExtWebLink url={ 'https://www.mocagh.org/loadpage.php?getgame=starcrossfolio' } text={ 'Museum of Computer Adventure Game History' } />.
+                    See also the{' '}
+                    <ExtWebLink url={ 'https://archive.org/details/starcross-infocom' } text={ 'Internet Archive' } />.
                 </p>
                 <p>
                     Starcross itself was originally written by Dave Lebling.
