@@ -68,6 +68,13 @@ export function FeeliesPage()
                     coordinates, here is the same information in tabular form:
                 </p>
                 <ChartTable />
+                <p>
+                    <i>Footnote:</i> Ceres was classified as an asteroid
+                    from 1867 to 2006. The original chart marks it as
+                    an &#x201C;inhabited asteroid.&#x201D; Pluto will
+                    always be a planet to me, but I am happy to grant
+                    Ceres its current dignity as a dwarf planet.
+                </p>
             </div>
         </div>
     );
@@ -94,7 +101,7 @@ const charted_masses: MassEntry[] = [
 ];
 
 const Mars: MassEntry = ["Mars", 250, 120,  12];
-const AB40: MassEntry = ["AB40", 250, 300,  22];
+const AB40: MassEntry = ["Ceres", 250, 300,  22];
 const US75: MassEntry = ["US75", 175, 135,  34];
 
 function ChartTable()
@@ -103,14 +110,14 @@ function ChartTable()
 
     rowls.push(
         <tr key="divplanet">
-            <td colSpan={ 4 } className="LabelRow" >Inhabited planets</td>
+            <td colSpan={ 4 } className="LabelRow" >Planetary objects</td>
         </tr>
     );
     rowls.push(
         <ChartRow key="Mars" row={ Mars } />
     );
     rowls.push(
-        <ChartRow key="AB40" row={ AB40 } extra="Ceres" />
+        <ChartRow key="AB40" row={ AB40 } extra="AB40" />
     );
     rowls.push(
         <tr key="divast">
