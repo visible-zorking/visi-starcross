@@ -147,7 +147,8 @@ export function AboutPage()
                 </p>
                 <h2>Which version is this?</h2>
                 <p>
-                    Starcross was the second non-Zork game created by Infocom.
+                    Starcross was the second non-Zork game created by Infocom,
+                    and the first sci-fi adventure.
                     As with Zork, it was built using a proprietary system
                     called{' '}
                     <ExtWebLink url={ 'https://blog.zarfhome.com/2019/04/what-is-zil-anyway' } text={ 'ZIL' } />.
@@ -202,8 +203,8 @@ export function AboutPage()
                 </p>
                 <p>
                     Feelie scans courtesy of the{' '}
-                    <ExtWebLink url={ 'https://infodoc.plover.net/manuals/' } text={ 'InfoDoc Project' } />
-                    {' '}.
+                    <ExtWebLink url={ 'https://www.mocagh.org/loadpage.php?getgame=starcrossfolio' } text={ 'Museum of Computer Adventure Game History' } />
+                    .
                 </p>
                 <p>
                     Starcross itself was originally written by Dave Lebling.
