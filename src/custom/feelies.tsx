@@ -73,31 +73,72 @@ export function FeeliesPage()
     );
 }
 
-type MassRow = [string, number, number, number];
+type MassEntry = [string, number, number, number];
 
-const uncharted_masses = [
-	["UM08", 150, 210,  17],
-	["UM12", 100, 345, 107],
-	["UM24", 100, 285,  87],
-	["UM28", 250,  45, 178],
-	["UM31", 150, 105,  67],
-	["UM52", 175, 165,  35],
-	["UM70", 100, 135, 101],
-	["UM91", 50,  15,  121],
+const uncharted_masses: MassEntry[] = [
+    ["UM08", 150, 210,  17],
+    ["UM12", 100, 345, 107],
+    ["UM24", 100, 285,  87],
+    ["UM28", 250,  45, 178],
+    ["UM31", 150, 105,  67],
+    ["UM52", 175, 165,  35],
+    ["UM70", 100, 135, 101],
+    ["UM91", 50,  15,  121],
 ];
+
+const charted_masses: MassEntry[] = [
+    ["AX01", 200, 240, 134],
+    ["AX32", 125, 240, 105],
+    ["AX71", 125, 180,  47],
+    ["AX87", 125,  75, 102],
+];
+
+const Mars: MassEntry = ["Mars", 250, 120,  12];
+const AB40: MassEntry = ["AB40", 250, 300,  22];
+const US75: MassEntry = ["US75", 175, 135,  34];
 
 function ChartTable()
 {
     let rowls = [];
+
+    rowls.push(
+        <tr key="divplanet">
+            <td colSpan={ 4 } className="LabelRow" >Inhabited planets</td>
+        </tr>
+    );
+    rowls.push(
+        <ChartRow key="Mars" row={ Mars } />
+    );
+    rowls.push(
+        <ChartRow key="AB40" row={ AB40 } extra="Ceres" />
+    );
+    rowls.push(
+        <tr key="divast">
+            <td colSpan={ 4 } className="LabelRow" >Charted asteroids</td>
+        </tr>
+    );
+    for (let row of charted_masses) {
+        rowls.push(
+            <ChartRow key={ row[0] } row={ row } />
+        );
+    }
+    rowls.push(
+        <tr key="divship">
+            <td colSpan={ 4 } className="LabelRow" >Spaceships</td>
+        </tr>
+    );
+    rowls.push(
+        <ChartRow key="US75" row={ US75 } />
+    );
+    rowls.push(
+        <tr key="divum">
+            <td colSpan={ 4 } className="LabelRow" >Uncharted masses</td>
+        </tr>
+    );
     for (let row of uncharted_masses) {
         rowls.push(
-            <tr key={ row[0] }>
-                <td>{ row[0] }</td>
-                <td>{ row[1] }</td>
-                <td>{ row[2] }&#xB0;</td>
-                <td>{ row[3] }&#xB0;</td>
-            </tr>
-        )
+            <ChartRow key={ row[0] } row={ row } />
+        );
     }
     
     return (
@@ -109,18 +150,26 @@ function ChartTable()
                     <th>Theta</th>
                     <th>Phi</th>
                 </tr>
-                <tr>
-                    <td colSpan={ 4 } className="LabelRow" >Charted destinations</td>
-                </tr>
-                <tr>
-                    <td colSpan={ 4 } className="LabelRow" >Uncharted masses</td>
-                </tr>
                 { rowls }
             </tbody>
         </table>
     );
 }
 
+function ChartRow({ row, extra }: { row:MassEntry, extra?:string })
+{
+    return (
+        <tr>
+            <td>
+                { row[0] }
+                { extra && <><br/><span className="ChartExtra">({ extra })</span></>}
+            </td>
+            <td>{ row[1] }</td>
+            <td>{ row[2] }&#xB0;</td>
+            <td>{ row[3] }&#xB0;</td>
+        </tr>
+    );
+}
 
 function FeelieLink({ url, text, width, height } : { url:string, text:string, width:number, height:number })
 {

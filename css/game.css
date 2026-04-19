@@ -15,4 +15,10 @@
 .ChartTable td.LabelRow {
     font-style: italic;
     text-align: center;
+    padding-top: 0.5rem;
+}
+
+.ChartTable td .ChartExtra {
+    font-style: italic;
+    font-size: 85%;
 }
