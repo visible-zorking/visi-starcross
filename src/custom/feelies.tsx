@@ -10,11 +10,11 @@ export function FeeliesPage()
                 <h2>Commands for space captains</h2>
                 <p>
                     You may wish to use shipboard directions while on
-                    board a spaceship or space station:{' '}
+                    a spaceship or space station:{' '}
                     <code>FORE</code>, <code>AFT</code>, <code>STARBOARD</code>, <code>PORT</code>.
                     (Or <code>F</code>, <code>AFT</code>, <code>SB</code>, <code>P</code> for short.)
                     However, the usual <code>NORTH</code>, <code>SOUTH</code>, <code>EAST</code>, <code>WEST</code>
-                    {' '}will work as well.
+                    {' '}will work as well. <code>FORE</code> is always <code>NORTH</code>.
                 </p>
                 <p>
                     (There are no diagonal directions in this game.
@@ -39,58 +39,88 @@ export function FeeliesPage()
                     <code>COMPUTER, RANGE IS <i>value</i></code><br/>
                     <code>COMPUTER, THETA IS <i>value</i></code><br/>
                     <code>COMPUTER, PHI IS <i>value</i></code><br/>
-                    <code>COMPUTER, CONFIRM</code>
+                    <code>COMPUTER, CONFIRM</code><br/>
+                </p>
+                <p>
+                    (Don&#x2019;t include the degree signs for{' '}
+                    <code>THETA</code> and <code>PHI</code>.)
                 </p>
                 <h2>The mass detector chart</h2>
                 <p>
-                    <i>Deadline</i> originally came with a
-                    &#x201C;Documentary Evidence&#x201D; file.
-                    This provided your introduction to the mystery,
-                    the background of many of the characters, and evidence
-                    you need to begin your investigation.
+                    So where you get these coordinates?{' '}
+                    <i>Starcross</i> originally came with a chart
+                    representing the <code>MASS DETECTOR OUTPUT</code>
+                    {' '}that you find on the Bridge. The chart showed
+                    the coordinates of every nearby object, printed
+                    in silver, black, orange, and purple. (Beautiful
+                    {' '}<em>and</em> hard to photocopy!)
+                    I have redrawn the chart for this exhibit:
+                </p>
+                <FeelieLink url={ 'chart.jpeg' } width={ 500 } height={ 333 } text={ 'The mass detector chart' } />
+                <p>
+                    For a photo of the original 1982 chart,{' '}
+                    <a target="_blank" href="pic/chart-scan.jpeg">see here</a>.
+                    (Image courtesy of the{' '}
+                    <a target="_blank" href="https://www.mocagh.org/loadpage.php?getgame=starcrossfolio">Museum of Computer Adventure Game History</a>.)
                 </p>
                 <p>
-                    You can view scans of these documents here.
+                    If you don&#x2019;t feel like puzzling out polar
+                    coordinates, here is the same information in tabular form:
                 </p>
-                <p>
-                    Note: These images are scanned from the the honest-to-Frob
-                    copy of <i>Deadline</i> that I played as a kid! They are
-                    from the original 1982 &#x201C;Folio&#x201D; release of
-                    the game. For a scan of the &#x201C;Grey Box&#x201D;
-                    manual, visit the{' '}
-                    <ExtWebLink url={ 'https://infodoc.plover.net/manuals/temp/deadline.pdf' } text={ 'InfoDoc Project' } />.
-                    For high-resolution scans, visit the Internet Archive (
-                    <ExtWebLink url={ 'https://archive.org/details/CasebookDeadlineInfocom/' } text={ 'Atari' } />,{' '}
-                    <ExtWebLink url={ 'https://archive.org/details/Casebook_Deadline_Infocom_Apple/' } text={ 'Apple' } />).
-                </p>
-                <hr />
-                <FeelieLink url={ 'coates-letter.jpg' } width={ 250 } height={ 305 } text={ 'Letter from Warren Coates (Attorney) to the Edindale Police Department' } />
-                <FeelieLink url={ 'scene-photo.jpg' } width={ 300 } height={ 240 } text={ 'Crime scene photo' } />
-                <FeelieLink url={ 'corpus-delicti.jpg' } width={ 250 } height={ 323 } text={ 'Coroner\u2019s report' } />
-                <FeelieLink url={ 'official-memo.jpg' } width={ 250 } height={ 161 } text={ 'Memo from Detective Anderson' } />
-                <FeelieLink url={ 'lab-report.jpg' } width={ 250 } height={ 164 } text={ 'Lab report on teacup' } />
-                <FeelieLink url={ 'evidence-label.jpg' } width={ 133 } height={ 71 } text={ 'Evidence label for tablets' } />
-                <p>
-                    (The label was attached to a baggie of three white tablets.
-                    I still have the baggie, but the tablets have crumbled
-                    to moldy ash, so I am not including them here.)
-                </p>
-                <FeelieLink url={ 'interview-mrs-robner.jpg' } width={ 200 } height={ 327 } text={ 'Police interview with Mrs. Robner' } />
-                <FeelieLink url={ 'interview-dunbar.jpg' } width={ 200 } height={ 327 } text={ 'Police interview with Ms. Dunbar' } />
-                <FeelieLink url={ 'interview-baxter.jpg' } width={ 200 } height={ 327 } text={ 'Police interview with Mr. Baxter' } />
-                <FeelieLink url={ 'interview-george.jpg' } width={ 200 } height={ 327 } text={ 'Police interview with George Robner' } />
-                <FeelieLink url={ 'interview-rourke.jpg' } width={ 200 } height={ 327 } text={ 'Police interview with Mrs. Rourke' } />
-                <hr />
-                <p>
-                    This page was not part of the original release; it was
-                    added for the 1984 &#x201C;Grey Box&#x201D; package.
-                    This scan courtesy of the InfoDoc Project.
-                </p>
-                <FeelieLink url={ 'detective-notes.jpg' } width={ 250 } height={ 293 } text={ 'Handwritten notes by the detective' } />
+                <ChartTable />
             </div>
         </div>
     );
 }
+
+type MassRow = [string, number, number, number];
+
+const uncharted_masses = [
+	["UM08", 150, 210,  17],
+	["UM12", 100, 345, 107],
+	["UM24", 100, 285,  87],
+	["UM28", 250,  45, 178],
+	["UM31", 150, 105,  67],
+	["UM52", 175, 165,  35],
+	["UM70", 100, 135, 101],
+	["UM91", 50,  15,  121],
+];
+
+function ChartTable()
+{
+    let rowls = [];
+    for (let row of uncharted_masses) {
+        rowls.push(
+            <tr key={ row[0] }>
+                <td>{ row[0] }</td>
+                <td>{ row[1] }</td>
+                <td>{ row[2] }&#xB0;</td>
+                <td>{ row[3] }&#xB0;</td>
+            </tr>
+        )
+    }
+    
+    return (
+        <table className="ChartTable">
+            <tbody>
+                <tr>
+                    <th>Name</th>
+                    <th>Range</th>
+                    <th>Theta</th>
+                    <th>Phi</th>
+                </tr>
+                <tr>
+                    <td colSpan={ 4 } className="LabelRow" >Charted destinations</td>
+                </tr>
+                <tr>
+                    <td colSpan={ 4 } className="LabelRow" >Uncharted masses</td>
+                </tr>
+                { rowls }
+            </tbody>
+        </table>
+    );
+}
+
 
 function FeelieLink({ url, text, width, height } : { url:string, text:string, width:number, height:number })
 {

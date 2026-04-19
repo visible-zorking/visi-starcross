@@ -2,3 +2,17 @@
     max-width: 100%;
     object-fit: contain;
 }
+
+.ChartTable {
+    border: 1px solid #CCC;
+    padding: 4px;
+}
+
+.ChartTable td {
+    text-align: right;
+}
+
+.ChartTable td.LabelRow {
+    font-style: italic;
+    text-align: center;
+}
