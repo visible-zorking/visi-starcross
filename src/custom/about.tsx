@@ -206,6 +206,8 @@ export function AboutPage()
                     <ExtWebLink url={ 'https://www.mocagh.org/loadpage.php?getgame=starcrossfolio' } text={ 'Museum of Computer Adventure Game History' } />.
                     See also the{' '}
                     <ExtWebLink url={ 'https://archive.org/details/starcross-infocom' } text={ 'Internet Archive' } />.
+                    My reproduction of the mass detector chart is archived{' '}
+                    <ExtWebLink url={ 'https://archive.org/details/Infocom_Starcross_Chart_Recreation' } text={ 'here' } />.
                 </p>
                 <p>
                     Starcross itself was originally written by Dave Lebling.
