@@ -512,6 +512,7 @@ RoutineType - CLAUSE - - WORD
 RoutineType - DDESC OBJ
 RoutineType - DESCRIBE-LOCK STR OBJ OBJ
 RoutineType - FIND-DESTINATION TABLE TABLE
+RoutineType - FIND-IN OBJ ATTR
 RoutineType - GWIM - - PREP
 RoutineType - JIGS-UP STR
 RoutineType - KNOWN-COURSE OBJ
