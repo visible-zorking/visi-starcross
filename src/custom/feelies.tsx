@@ -18,7 +18,7 @@ export function FeeliesPage()
                 </p>
                 <p>
                     (There are no diagonal directions in this game.
-                    &#x201C;AFTPORT&#x201D; and &#x201C;FORESB&#x201D;
+                    &#x201C;Aftport&#x201D; and &#x201C;foresb&#x201D;
                     would be weird.)
                 </p>
                 <p>
@@ -26,7 +26,7 @@ export function FeeliesPage()
                     computer:
                 </p>
                 <p>
-                    <code>COMPUTER, SET COURSE FOR (LOCATION)</code><br/>
+                    <code>COMPUTER, SET COURSE FOR <i>location</i></code><br/>
                     <code>COMPUTER, CONFIRM</code>
                 </p>
                 <p>
@@ -36,12 +36,12 @@ export function FeeliesPage()
                     and then set them manually:
                 </p>
                 <p>
-                    <code>COMPUTER, RANGE IS (VALUE)</code><br/>
-                    <code>COMPUTER, THETA IS (VALUE)</code><br/>
-                    <code>COMPUTER, PHI IS (VALUE)</code><br/>
+                    <code>COMPUTER, RANGE IS <i>value</i></code><br/>
+                    <code>COMPUTER, THETA IS <i>value</i></code><br/>
+                    <code>COMPUTER, PHI IS <i>value</i></code><br/>
                     <code>COMPUTER, CONFIRM</code>
                 </p>
-                <h2>Documentary evidence</h2>
+                <h2>The mass detector chart</h2>
                 <p>
                     <i>Deadline</i> originally came with a
                     &#x201C;Documentary Evidence&#x201D; file.
