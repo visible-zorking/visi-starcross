@@ -56,6 +56,21 @@ glob:LOAD-ALLOWED: The weight limit you can carry. This is always 100.
 glob:LOW-DIRECTION: Properties with this value and above are directions.
 	*Starcross* does not define property 22 or 23, so really the directions are 24 and above.
 
+attr:ONBIT: Set for glowing objects and permanently-illuminated rooms.
+
+attr:RLANDBIT: Set for rooms with gravity and a solid floor. The practical effect is that the disks work in such rooms.
+
+attr:SPACEBIT: Set for rooms in outer space. You need the [~obj:SPACESUIT] to survive.
+
+attr:RAIRBIT: Set for room with air but no gravity.
+
+attr:VILLAIN: Generally set for living beings, although they may or may not be villainous. Also the [~obj:NEST], probably so that you can assault it.
+	Compare [~attr:VICBIT].
+	The [~obj:ADVENTURER] has the `VILLAIN` flag, which leads to a few buggy messages. Try `HELLO ME` or `WAKE ME`, for example.
+
+attr:VICBIT: Generally set for living beings, though not the [~obj:ADVENTURER].
+	This is almost the same as [~attr:VILLAIN], but some verbs use [~attr:VILLAIN] and some `VICBIT`, with no obvious pattern.
+
 glob:P-WON: Set if the parser successfully parsed a command. (As opposed to a blank line or an error.)
 	No relation to whether the *player* has won, which is [glob:WON-FLAG].
 	
@@ -74,10 +89,17 @@ TIMERS-LEGEND: A list of the timers running (or paused) in the timer table ([~gl
 	This list only grows as you play; timers can be added, started, and stopped, but not removed.
 
 rtn:GO: Set up the world at the start of the game. Start the timers. Print the banner. Set all those useful globals like [~glob:HERE] and [~glob:WINNER].
+	(Note the commented-out line that sets the `I-LAMP` timer. Left over from when this code was copied from Zork!)
+	`GO` also fills in the [glob:MASSES] and [glob:KNOWNS] tables, which is odd because they are both defined with their contents in place. The values this routine stores are already present. Possibly this indicates a bug in an earlier version of the ZIL compiler?
 
 rtn:ZPROB: This function is never called.
 	Every die-roll in *Starcross* uses the one-argument form of [PROB|~src:MACROS-66]. That’s compiled as an inlined `@RANDOM` opcode, not `ZPROB`.
 	`ZPROB` has extra logic to decrease your chance of success if you are un-[glob:LUCKY]. But nothing in the game makes you un-[glob:LUCKY], so this is never needed.
+
+
+glob:MASSES: The object numbers of the eight uncharted masses.
+
+glob:KNOWNS: The object numbers of the seven charted masses.
 
 
 ### silvery rays
