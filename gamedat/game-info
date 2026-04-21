@@ -382,7 +382,6 @@ Global 56 P-MERGE  TABLE
 Global 57 P-NUMBER
 Global 58 P-MERGED
 Global 59 P-TABLE
-### are BLUE-DISK-ON and RED-DISK-ON correct?
 Global 60 BLUE-DISK-ON
 Global 61 ALIENS-FRIENDLY?
 Global 62 MOUSE-LOC  OBJ
