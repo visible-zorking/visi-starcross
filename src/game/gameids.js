@@ -33,6 +33,7 @@ function gamedat_ids_specific(gamedat_ids)
     gamedat_ids.SPIDER = gamedat_object_names.get('SPIDER').onum;
     gamedat_ids.CHIEF = gamedat_object_names.get('CHIEF').onum;
     gamedat_ids.MOUSE = gamedat_object_names.get('MOUSE').onum;
+    gamedat_ids.SCORCHED_ALIEN = gamedat_object_names.get('SCORCHED-ALIEN').onum;
     gamedat_ids.STARTROOM = gamedat_object_names.get('SPACESHIP-QUARTERS').onum;
     gamedat_ids.PSEUDO_OBJECT = gamedat_object_names.get('PSEUDO-OBJECT').onum;
 
