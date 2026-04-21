@@ -43,6 +43,42 @@ glob:WINNER: `WINNER` is the actor in the current command.
 
 glob:HERE: The location of the [*glob:WINNER].
 
+glob:LIT: Whether the current location has light. Set by calling the [rtn:LIT?] routine.
+
+rtn:LIT?: Determine whether a given location has light. This is true if the room or anything in it has [attr:ONBIT], or if [glob:ALWAYS-LIT] is set.
+	This routine is used to set the [glob:LIT] variable.
+
+glob:ALWAYS-LIT: Whether every location in the game has light.
+	The only dark rooms in *Starcross* are the yellow halls, so this flag is set when you repair the yellow lighting. See [DESCRIBE-ROOM|~src:VERBS-75].
+
+glob:LOAD-ALLOWED: The weight limit you can carry. This is always 100.
+
+glob:LOW-DIRECTION: Properties with this value and above are directions.
+	*Starcross* does not define property 22 or 23, so really the directions are 24 and above.
+
+glob:P-WON: Set if the parser successfully parsed a command. (As opposed to a blank line or an error.)
+	No relation to whether the *player* has won, which is [glob:WON-FLAG].
+	
+glob:WON-FLAG: Set when you win the game. This affects how your [score|~rtn:V-SCORE] is displayed.
+
+glob:LUCKY: In *Starcross*, you are always lucky.
+
+glob:C-INTS: Indicates how much of the timer table ([*glob:C-TABLE]) is used. This counts down from `C-TABLELEN`, which is 180.
+
+glob:C-DEMONS: Indicates how much of the timer table is used for daemons.
+	The difference between daemons and timers is that timers run every turn; daemons run every *input*, even if no turn passes. But *Starcross* does not use daemons.
+
+glob:C-TABLE: The timer table. See the “Timers” tab for a current listing.
+
+TIMERS-LEGEND: A list of the timers running (or paused) in the timer table ([~glob:C-TABLE]). Positive numbers count down (while enabled) and call the named function after that many turns. Negative numbers are called every turn while the timer is enabled.
+	This list only grows as you play; timers can be added, started, and stopped, but not removed.
+
+rtn:GO: Set up the world at the start of the game. Start the timers. Print the banner. Set all those useful globals like [~glob:HERE] and [~glob:WINNER].
+
+rtn:ZPROB: This function is never called.
+	Every die-roll in *Starcross* uses the one-argument form of [PROB|~src:MACROS-66]. That’s compiled as an inlined `@RANDOM` opcode, not `ZPROB`.
+	`ZPROB` has extra logic to decrease your chance of success if you are un-[glob:LUCKY]. But nothing in the game makes you un-[glob:LUCKY], so this is never needed.
+
 
 ### silvery rays
 ### two-part explosive
