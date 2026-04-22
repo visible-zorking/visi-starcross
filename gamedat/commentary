@@ -96,15 +96,23 @@ rtn:ZPROB: This function is never called.
 	Every die-roll in *Starcross* uses the one-argument form of [PROB|~src:MACROS-66]. That’s compiled as an inlined `@RANDOM` opcode, not `ZPROB`.
 	`ZPROB` has extra logic to decrease your chance of success if you are un-[glob:LUCKY]. But nothing in the game makes you un-[glob:LUCKY], so this is never needed.
 
+rtn:JIGS-UP: This routine handles your demise and possible resurrection. For game endings with no second chance, see [rtn:FINISH].
+
+rtn:FINISH: This routine displays your score and ends the game.
+
 
 glob:MASSES: The object numbers of the eight uncharted masses.
 
 glob:KNOWNS: The object numbers of the seven charted masses.
 
 
+src:ACTIONS-2169: This “Lose, lose!” message seems to cover a branch that cannot occur ([~glob:P-ADJECTIVE] is neither zero nor non-zero). Possibly this was needed to cover a compiler bug?
+	Interestingly, the compiled file is missing the string “Lose, lose!” – it’s just got a lone “!”. Same compiler bug? Or was the source modified after the last compile?
+
+obj:LADDER: No `LADDER` object is defined in the source! But the [~obj:BLUE-THREE] and [~obj:YELLOW-THREE] refer to it (in their `GLOBAL` properties.) Because of this, the compiler generated an anonymous object with no properties. It cannot be referred to and has no effect in the game.
+	Those rooms were very likely intended to refer to the [~obj:STAIRS] scenery object instead. (It has `LADDER` as a synonym.)
+
 ### silvery rays
 ### two-part explosive
-### Lose, lose!
-### LADDER 82
 ### Pluto!
 ### IN-ARTIFACT?, MELTED? set but not used
