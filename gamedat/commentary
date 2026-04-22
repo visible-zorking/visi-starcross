@@ -105,9 +105,11 @@ glob:MASSES: The object numbers of the eight uncharted masses.
 
 glob:KNOWNS: The object numbers of the seven charted masses.
 
+glob:IN-ARTIFACT?: This flag is set when you enter the artifact and cleared when you leave. This determines whether you care about the state of the artifact’s atmosphere.
+
 
 src:ACTIONS-2169: This “Lose, lose!” message seems to cover a branch that cannot occur ([~glob:P-ADJECTIVE] is neither zero nor non-zero). Possibly this was needed to cover a compiler bug?
-	Interestingly, the compiled file is missing the string “Lose, lose!” – it’s just got a lone “!”. Same compiler bug? Or was the source modified after the last compile?
+	Interestingly, the compiled file is missing the string “Lose, lose!” – it’s just got a lone “!” Same compiler bug? Or was the source modified after the last compile?
 
 obj:LADDER: No `LADDER` object is defined in the source! But [~obj:BLUE-THREE] and [~obj:YELLOW-THREE] refer to it (in their `GLOBAL` properties.) Because of this, the compiler generated an anonymous object with no properties. It cannot be referred to and has no effect in the game.
 	Those rooms were very likely intended to refer to the [~obj:STAIRS] scenery object instead. (It has `LADDER` as a synonym.)
@@ -116,8 +118,11 @@ src:DUNGEON-984: The [obj:LADDER] scenery reference should probably be to [~obj:
 
 src:DUNGEON-1051: The [obj:LADDER] scenery reference should probably be to [~obj:STAIRS] instead.
 
+src:ACTIONS-3199: I always wanted to be able to put *any* rod into the gun, and thus produce a “giant blast of red rays” or “black rays” or whatever color I wanted. Sadly the game does not support it.
 
-### silvery rays
-### two-part explosive
-### Pluto!
-### IN-ARTIFACT?, MELTED? set but not used
+src:ACTIONS-2127: Pluto was still a planet when *Starcross* was written.
+	The first time I faced this puzzle, I didn't catch on that the first bump was the Sun. I pressed the `FOURTH BUMP` because Mars was the nearest planet – it was even mentioned on the mass chart! Luckily my mistakes cancelled out.
+
+src:ACTIONS-1586: The first thing I ever tried with the disks was putting one on top of the other. They exploded, and I decided they must be a two-part explosive! I spent several days trying to solve puzzles by blowing things up before I realized my mistake.
+
+
