@@ -109,8 +109,13 @@ glob:KNOWNS: The object numbers of the seven charted masses.
 src:ACTIONS-2169: This “Lose, lose!” message seems to cover a branch that cannot occur ([~glob:P-ADJECTIVE] is neither zero nor non-zero). Possibly this was needed to cover a compiler bug?
 	Interestingly, the compiled file is missing the string “Lose, lose!” – it’s just got a lone “!”. Same compiler bug? Or was the source modified after the last compile?
 
-obj:LADDER: No `LADDER` object is defined in the source! But the [~obj:BLUE-THREE] and [~obj:YELLOW-THREE] refer to it (in their `GLOBAL` properties.) Because of this, the compiler generated an anonymous object with no properties. It cannot be referred to and has no effect in the game.
+obj:LADDER: No `LADDER` object is defined in the source! But [~obj:BLUE-THREE] and [~obj:YELLOW-THREE] refer to it (in their `GLOBAL` properties.) Because of this, the compiler generated an anonymous object with no properties. It cannot be referred to and has no effect in the game.
 	Those rooms were very likely intended to refer to the [~obj:STAIRS] scenery object instead. (It has `LADDER` as a synonym.)
+
+src:DUNGEON-984: The [obj:LADDER] scenery reference should probably be to [~obj:STAIRS] instead.
+
+src:DUNGEON-1051: The [obj:LADDER] scenery reference should probably be to [~obj:STAIRS] instead.
+
 
 ### silvery rays
 ### two-part explosive
