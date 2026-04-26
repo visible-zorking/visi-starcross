@@ -101,6 +101,11 @@ rtn:JIGS-UP: This routine handles your demise and possible resurrection. For gam
 rtn:FINISH: This routine displays your score and ends the game.
 
 
+src:SF-2: The game is variously referred to in the source headers as “Zork SF Game” and “Interlogic SF Game”. “Zork SF” has the earlier dates (1981 alone), so that must have been how Infocom originally thought of *Starcross*.
+
+src:DUNGEON-3: This is so closely derived from the Zork source code that the game map is still called the “DUNGEON”!
+
+
 glob:MASSES: The object numbers of the eight uncharted masses.
 
 glob:KNOWNS: The object numbers of the seven charted masses.
