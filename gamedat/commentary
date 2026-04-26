@@ -143,4 +143,4 @@ src:ACTIONS-2127: Pluto was still a planet when *Starcross* was written.
 
 src:ACTIONS-1586: The first thing I ever tried with the disks was putting one on top of the other. They exploded, and I decided they must be a two-part explosive! I spent several days trying to solve puzzles by blowing things up before I realized my mistake.
 
-
+src:ACTIONS-3767: Once you repair the lights, there are no dark rooms in the game. (See [glob:ALWAYS-LIT].) I always thought it was a bit unfair that you could be eaten by grues at that point.
