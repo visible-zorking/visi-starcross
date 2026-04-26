@@ -105,9 +105,13 @@ src:SF-2: The game is variously referred to in the source headers as “Zork SF 
 
 src:DUNGEON-3: This is so closely derived from the Zork source code that the game map is still called the “DUNGEON”!
 
-obj:GRUE-SIGN: The artifact has dark rooms; dark rooms have grues; therefore the artifact needs a source of grues. They're willing to drop the world consistency by putting the sign in English, though.
+obj:GRUE-SIGN: The artifact has dark rooms; dark rooms have grues; therefore the artifact needs a source of grues. They’re willing to drop the world consistency by putting the sign in English, though.
 	(Also by implying that the artifact has visited Sol system before? Nothing else in the game says that.)
 	`WHAT IS A GRUE` works, by the way.
+
+rtn:V-FROBOZZ: No command calls this verb routine, sadly. (Zork 1 and 2 had an analogous routine invoked by typing `FROBOZZ`.)
+
+rtn:V-REPORT: The command `COMPUTER, REPORT STATUS` works and is useful in the first scene.
 
 
 glob:MASSES: The object numbers of the eight uncharted masses.
@@ -115,6 +119,8 @@ glob:MASSES: The object numbers of the eight uncharted masses.
 glob:KNOWNS: The object numbers of the seven charted masses.
 
 glob:IN-ARTIFACT?: This flag is set when you enter the artifact and cleared when you leave. This determines whether you care about the state of the artifact’s atmosphere.
+
+src:ACTIONS-60: The cranky computer must surely have been inspired by *Hitchhiker’s Guide*. (The idea of an actual collaboration with Adams was probably still a year or so off.)
 
 
 src:ACTIONS-2169: This “Lose, lose!” message seems to cover a branch that cannot occur ([~glob:P-ADJECTIVE] is neither zero nor non-zero). Possibly this was needed to cover a compiler bug?
