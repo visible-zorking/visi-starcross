@@ -122,6 +122,9 @@ glob:IN-ARTIFACT?: This flag is set when you enter the artifact and cleared when
 
 src:ACTIONS-60: The cranky computer must surely have been inspired by *Hitchhiker’s Guide*. (The idea of an actual collaboration with Adams was probably still a year or so off.)
 
+src:ACTIONS-709: This is the only point where the game mentions that you’re prospecting for *quantum* black holes – that is, microscopic ones. (The manual intro also mentions it, but who reads manuals...) We’re not talking about giant star-swallowing black holes hiding in the asteroid belt.
+	Stephen Hawking first hypothesized quantum black holes in the 1970s. They quickly became an SF staple. Teeny-weeny ones would evaporate instantly, but slightly less tiny “primordial” holes left over from the Big Bang might survive.
+
 
 src:ACTIONS-2169: This “Lose, lose!” message seems to cover a branch that cannot occur ([~glob:P-ADJECTIVE] is neither zero nor non-zero). Possibly this was needed to cover a compiler bug?
 	Interestingly, the compiled file is missing the string “Lose, lose!” – it’s just got a lone “!” Same compiler bug? Or was the source modified after the last compile?
