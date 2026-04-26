@@ -105,6 +105,10 @@ src:SF-2: The game is variously referred to in the source headers as “Zork SF 
 
 src:DUNGEON-3: This is so closely derived from the Zork source code that the game map is still called the “DUNGEON”!
 
+obj:GRUE-SIGN: The artifact has dark rooms; dark rooms have grues; therefore the artifact needs a source of grues. They're willing to drop the world consistency by putting the sign in English, though.
+	(Also by implying that the artifact has visited Sol system before? Nothing else in the game says that.)
+	`WHAT IS A GRUE` works, by the way.
+
 
 glob:MASSES: The object numbers of the eight uncharted masses.
 
