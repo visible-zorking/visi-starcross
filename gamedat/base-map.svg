@@ -26,14 +26,14 @@
      inkscape:document-units="px"
      showgrid="true"
      inkscape:zoom="1"
-     inkscape:cx="409.5"
-     inkscape:cy="343"
+     inkscape:cx="823.5"
+     inkscape:cy="687"
      inkscape:window-width="2080"
      inkscape:window-height="1234"
-     inkscape:window-x="222"
+     inkscape:window-x="221"
      inkscape:window-y="66"
      inkscape:window-maximized="0"
-     inkscape:current-layer="connlayer">
+     inkscape:current-layer="roomlayer">
     <inkscape:grid
        id="grid1"
        units="px"
@@ -281,7 +281,7 @@
      id="roomlayer"
      style="display:inline">
     <rect
-       id="rect1"
+       id="r-red-one"
        width="15.875002"
        height="15.874998"
        x="362.47916"
@@ -289,7 +289,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect2"
+       id="r-yellow-one"
        width="15.875002"
        height="15.874998"
        x="362.47916"
@@ -297,7 +297,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect3"
+       id="r-green-one"
        width="15.875002"
        height="15.874998"
        x="399.52081"
@@ -305,7 +305,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect4"
+       id="r-blue-one"
        width="15.875002"
        height="15.874998"
        x="325.4375"
@@ -313,7 +313,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect10"
+       id="r-yellow-two"
        width="15.875002"
        height="15.874998"
        x="362.47916"
@@ -321,7 +321,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect11"
+       id="r-green-two"
        width="15.875002"
        height="15.874998"
        x="436.5625"
@@ -329,7 +329,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect12"
+       id="r-red-two"
        width="15.875002"
        height="15.874998"
        x="362.47916"
@@ -337,7 +337,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect13"
+       id="r-blue-two"
        width="15.875002"
        height="15.874998"
        x="288.39581"
@@ -345,7 +345,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect15"
+       id="r-blue-three"
        width="15.875002"
        height="15.874998"
        x="246.06248"
@@ -353,7 +353,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect22"
+       id="r-green-three"
        width="15.875002"
        height="15.874998"
        x="478.89581"
@@ -361,7 +361,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect23"
+       id="r-yellow-three"
        width="15.875002"
        height="15.874998"
        x="362.47916"
@@ -369,7 +369,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect24"
+       id="r-red-three"
        width="15.875002"
        height="15.874998"
        x="362.47916"
@@ -377,7 +377,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect25"
+       id="r-yellow-four"
        width="15.875002"
        height="15.874998"
        x="362.47916"
@@ -385,7 +385,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect9"
+       id="r-red-four"
        width="15.875002"
        height="15.874998"
        x="362.47916"
@@ -393,7 +393,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect14"
+       id="r-green-four"
        width="15.875002"
        height="15.874998"
        x="526.52087"
@@ -401,7 +401,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect16"
+       id="r-blue-four"
        width="15.875002"
        height="15.874998"
        x="198.4375"
@@ -409,7 +409,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect17"
+       id="r-yellow-five"
        width="15.875002"
        height="15.874998"
        x="362.47916"
@@ -417,7 +417,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect18"
+       id="r-blue-five"
        width="15.875002"
        height="15.874998"
        x="150.8125"
@@ -425,7 +425,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect19"
+       id="r-red-five"
        width="15.875002"
        height="15.874998"
        x="362.47916"
@@ -433,7 +433,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect20"
+       id="r-green-five"
        width="15.875002"
        height="15.874998"
        x="574.14581"
@@ -441,7 +441,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect21"
+       id="r-blue-34"
        width="15.875002"
        height="15.874998"
        x="222.24998"
@@ -449,7 +449,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect26"
+       id="r-blue-red-four"
        width="15.875002"
        height="15.874998"
        x="246.59164"
@@ -457,7 +457,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect27"
+       id="r-yellow-four-five"
        width="15.875002"
        height="15.874998"
        x="362.47916"
@@ -465,7 +465,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect28"
+       id="r-green-yellow-one"
        width="15.875002"
        height="15.874998"
        x="387.87915"
@@ -473,7 +473,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect29"
+       id="r-computer-room"
        width="15.875002"
        height="15.874998"
        x="404.8125"
@@ -481,7 +481,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect30"
+       id="r-blue-one-two"
        width="15.875002"
        height="15.874998"
        x="306.91666"
@@ -489,7 +489,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect31"
+       id="r-blue-red-two"
        width="15.875002"
        height="15.874998"
        x="310.62085"
@@ -497,7 +497,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect32"
+       id="r-ff-room"
        width="15.875002"
        height="15.874998"
        x="229.64618"
@@ -505,7 +505,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect34"
+       id="r-weapons-deck"
        width="15.875002"
        height="15.874998"
        x="264.58331"
@@ -513,7 +513,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect35"
+       id="r-observatory"
        width="15.875002"
        height="15.874998"
        x="322.79166"
@@ -521,7 +521,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect44"
+       id="r-village-n-edge"
        width="15.875002"
        height="15.874998"
        x="457.72916"
@@ -529,7 +529,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect45"
+       id="r-village-s-edge"
        width="15.875002"
        height="15.874998"
        x="550.33331"
@@ -537,7 +537,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect46"
+       id="r-village-se-edge"
        width="15.875002"
        height="15.874998"
        x="521.22913"
@@ -545,7 +545,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect47"
+       id="r-village-sw-edge"
        width="15.875002"
        height="15.874998"
        x="521.22913"
