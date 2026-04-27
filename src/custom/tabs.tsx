@@ -19,7 +19,7 @@ import { AboutPage } from './about';
 const tab_list = [
     [ 'activity', 'Activity' ],
     [ 'objtree', 'World' ],
-    //[ 'map', 'Map' ],
+    [ 'map', 'Map' ],
     [ 'globals', 'State' ],
     [ 'timers', 'Timers' ],
     [ 'grammar', 'Grammar' ],
@@ -33,6 +33,7 @@ export function TabbedPane()
     let rctx = useContext(ReactCtx);
 
     const mobiles = [
+        gamedat_ids.MOUSE,
     ];
 
     let ells = tab_list.map(([key, label]) => {
@@ -71,11 +72,9 @@ export function TabbedPane()
     case 'activity':
         tabcontent = <CallActivity />;
         break;
-    /*
     case 'map':
         tabcontent = <GameMap mobiles={ mobiles } />;
         break;
-    */
     case 'globals':
         tabcontent = <GlobalState />;
         break;
