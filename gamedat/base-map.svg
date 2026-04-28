@@ -54,10 +54,6 @@
 #roomlayer rect { fill:#F8F0E8; stroke:#000; stroke-width:0.7; }
 #roomlayer rect.Selected { fill:#FFD080; }
 #mobilelayer g.Offstage { display:none; }
-#sphere-highlight-white { fill:#FFFFFF; fill-opacity:0.5; }
-#sphere-highlight-black { fill:#000000; fill-opacity:0.3; }
-.DarkTheme #sphere-highlight-white { fill:#000000; fill-opacity:0.3; }
-.DarkTheme #sphere-highlight-black { fill:#FFFFFF; fill-opacity:0.5; }
 </style>
   <defs
      id="defs1">
