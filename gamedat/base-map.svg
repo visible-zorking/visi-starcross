@@ -26,12 +26,12 @@
      inkscape:document-units="px"
      showgrid="true"
      inkscape:zoom="1"
-     inkscape:cx="1205.5"
-     inkscape:cy="1079"
+     inkscape:cx="1205"
+     inkscape:cy="1080"
      inkscape:window-width="2080"
      inkscape:window-height="1234"
      inkscape:window-x="220"
-     inkscape:window-y="66"
+     inkscape:window-y="38"
      inkscape:window-maximized="0"
      inkscape:current-layer="labellayer">
     <inkscape:grid
@@ -1133,19 +1133,19 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.11698px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato, Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.78538;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
-       x="-444.92859"
-       y="136.44226"
+       x="-445.48984"
+       y="137.75188"
        id="text111"
        transform="rotate(-135)"><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.11698px;font-family:Lato;-inkscape-font-specification:'Lato, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.78538"
-         x="-444.92859"
-         y="136.44226"
+         x="-445.48984"
+         y="137.75188"
          id="tspan111">Computer</tspan><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.11698px;font-family:Lato;-inkscape-font-specification:'Lato, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.78538"
-         x="-444.92859"
-         y="140.49432"
+         x="-445.48984"
+         y="141.80396"
          id="tspan112">Room</tspan></text>
   </g>
 </svg>
