@@ -9,13 +9,21 @@ export function show_commentary_hook(topic: string, engine: GnustoEngine): strin
 }
 
 const map_rotations: { [key: string]: number } = {
+    'VILLAGE-NW-EDGE': 22.5,
+    'VILLAGE': 45,
+    'VILLAGE-SW-EDGE': 45,
+    'MAZE': 67.5,
     'GREEN-ONE': 90,
     'GREEN-TWO': 90,
     'GREEN-THREE': 90,
     'GREEN-FOUR': 90,
     'GREEN-FIVE': 90,
+    'VILLAGE-N-EDGE': 90,
+    'VILLAGE-S-EDGE': 90,
     'GREEN-YELLOW-ONE': 135,
     'COMPUTER-ROOM': 135,
+    'VILLAGE-SE-EDGE': 135,
+    'VILLAGE-NE-EDGE': 135,
     'YELLOW-ONE': 180,
     'YELLOW-TWO': 180,
     'YELLOW-THREE': 180,
