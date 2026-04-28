@@ -1,7 +1,7 @@
 import { unpack_address } from '../visi/gametypes';
 import { GnustoEngine, ZState, ZStatePlus } from '../visi/zstate';
 import { OptPosition, ExtraToggle } from '../visi/map';
-import { gamedat_routine_names, gamedat_global_names, gamedat_string_map, gamedat_object_ids } from '../visi/gamedat';
+import { gamedat_routine_names, gamedat_global_names, gamedat_string_map, gamedat_object_ids, gamedat_roominfo_names } from '../visi/gamedat';
 
 export function show_commentary_hook(topic: string, engine: GnustoEngine): string|null
 {
@@ -37,8 +37,26 @@ const map_rotations: { [key: string]: number } = {
     'GARAGE': 315,
 };
 
-export function map_scrollcenter(zstate: ZStatePlus): OptPosition
+const center = { x: 370.41666, y: 259.29169 };
+
+export function map_scrollcenter(zstate: ZStatePlus, locname: string): OptPosition
 {
+    let rot = map_rotations[locname || ''];
+    if (rot) {
+        let theta = -Math.PI * (rot / 180.0);
+        let roomobj = gamedat_roominfo_names.get(locname);
+        if (roomobj) {
+            let pos = roomobj.center;
+            let vec = { x: pos.x - center.x, y: pos.y - center.y };
+            let res = {
+                x: vec.x * Math.cos(theta) + vec.y * Math.sin(theta),
+                y: vec.y * Math.cos(theta) - vec.x * Math.sin(theta),
+            };
+            //###console.log('### ', theta, vec, res);
+            return { x: res.x + center.x, y: res.y + center.y };
+        }
+    }
+    
     return null;
 }
 
@@ -49,13 +67,10 @@ export function map_adjustments(zstate: ZStatePlus): ExtraToggle[]
     
     let ls: ExtraToggle[] = [];
 
-    const centerx = 370.41666;
-    const centery = 259.29169;
-
     let rot = map_rotations[locname || ''];
     let mtransform = '';
     if (rot) {
-	mtransform = 'translate('+centerx+','+centery+'), rotate('+rot+'), translate(-'+centerx+',-'+centery+')';
+        mtransform = 'translate('+center.x+','+center.y+'), rotate('+rot+'), translate(-'+center.x+',-'+center.y+')';
     }
     
     ls.push({ id: 'turntable', transform: mtransform });
