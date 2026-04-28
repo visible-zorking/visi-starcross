@@ -37,6 +37,11 @@ const map_rotations: { [key: string]: number } = {
     'GARAGE': 315,
 };
 
+export function map_scrollcenter(zstate: ZStatePlus): OptPosition
+{
+    return null;
+}
+
 export function map_adjustments(zstate: ZStatePlus): ExtraToggle[]
 {
     let here = zstate.globals[0]; // HERE
