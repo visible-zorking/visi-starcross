@@ -68,12 +68,20 @@ export function map_adjustments(zstate: ZStatePlus): ExtraToggle[]
     let ls: ExtraToggle[] = [];
 
     let rot = map_rotations[locname || ''];
+    
     let mtransform = '';
     if (rot) {
         mtransform = 'translate('+center.x+','+center.y+'), rotate('+rot+'), translate(-'+center.x+',-'+center.y+')';
     }
-    
     ls.push({ id: 'turntable', transform: mtransform });
+
+    if (rot) {
+        mtransform = 'translate('+center.x+','+center.y+'), rotate('+(360-rot)+')';
+    }
+    else {
+        mtransform = 'translate('+center.x+','+center.y+')';
+    }
+    ls.push({ id: 'label-center', transform: mtransform });
     
     return ls;
 }
