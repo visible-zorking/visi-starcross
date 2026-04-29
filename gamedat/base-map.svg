@@ -26,14 +26,14 @@
      inkscape:document-units="px"
      showgrid="true"
      inkscape:zoom="1"
-     inkscape:cx="2854"
+     inkscape:cx="2824"
      inkscape:cy="1427"
      inkscape:window-width="2080"
      inkscape:window-height="1234"
-     inkscape:window-x="218"
-     inkscape:window-y="0"
+     inkscape:window-x="216"
+     inkscape:window-y="80"
      inkscape:window-maximized="0"
-     inkscape:current-layer="connlayer">
+     inkscape:current-layer="roomlayer">
     <inkscape:grid
        id="grid1"
        units="px"
@@ -1077,7 +1077,7 @@
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7"
        transform="rotate(45)" />
     <rect
-       id="r-red-five-8"
+       id="r-on-control-bubble"
        width="21.166679"
        height="15.874991"
        x="791.10413"
@@ -1085,7 +1085,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect9"
+       id="r-on-drive-bubble"
        width="21.166679"
        height="15.874991"
        x="791.10413"
@@ -1093,7 +1093,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect10"
+       id="r-axis-1"
        width="21.166679"
        height="15.874991"
        x="791.10413"
@@ -1101,7 +1101,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect11"
+       id="r-axis-2"
        width="21.166679"
        height="15.874991"
        x="791.10413"
@@ -1109,7 +1109,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect12"
+       id="r-axis-3"
        width="21.166679"
        height="15.874991"
        x="791.10413"
@@ -1117,7 +1117,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect13"
+       id="r-base-of-tree"
        width="21.166679"
        height="15.874991"
        x="881.06244"
@@ -1125,7 +1125,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect14"
+       id="r-scrub-2"
        width="21.166679"
        height="15.874991"
        x="886.35413"
@@ -1133,7 +1133,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect15"
+       id="r-grassland-2"
        width="21.166679"
        height="15.874991"
        x="891.64581"
@@ -1141,7 +1141,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect16"
+       id="r-metal-band-2"
        width="21.166679"
        height="15.874991"
        x="896.93744"
@@ -1149,7 +1149,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect17"
+       id="r-fore-end-2"
        width="21.166679"
        height="15.874991"
        x="902.22913"
@@ -1157,7 +1157,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect18"
+       id="r-treetop-room"
        width="10.583344"
        height="15.874998"
        x="849.31244"
@@ -1165,7 +1165,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect19"
+       id="r-up-a-tree"
        width="10.583324"
        height="15.875009"
        x="865.1875"
@@ -1173,7 +1173,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect20"
+       id="r-drive-bubble-entrance"
        width="21.166679"
        height="15.874991"
        x="820.20831"
@@ -1181,7 +1181,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect21"
+       id="r-drive-bubble-room"
        width="21.166679"
        height="15.874991"
        x="806.97913"
@@ -1189,7 +1189,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect22"
+       id="r-control-bubble-room"
        width="21.166679"
        height="15.874991"
        x="775.22913"
@@ -1197,7 +1197,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect23"
+       id="r-control-bubble-entrance"
        width="21.166679"
        height="15.874991"
        x="759.35413"
@@ -1205,7 +1205,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect24"
+       id="r-forest"
        width="21.166679"
        height="15.874991"
        x="706.43744"
@@ -1213,7 +1213,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect25"
+       id="r-scrub"
        width="21.166679"
        height="15.874991"
        x="701.14575"
@@ -1221,7 +1221,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect26"
+       id="r-grassland"
        width="21.166679"
        height="15.874991"
        x="695.85406"
@@ -1229,7 +1229,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect27"
+       id="r-metal-band"
        width="21.166679"
        height="15.874991"
        x="690.56244"
@@ -1237,7 +1237,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect28"
+       id="r-fore-end"
        width="21.166679"
        height="15.874991"
        x="685.27075"
@@ -1245,7 +1245,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect29"
+       id="r-repair-room"
        width="21.166679"
        height="15.874991"
        x="672.04156"
