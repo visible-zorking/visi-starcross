@@ -42,7 +42,11 @@ const map_rotations: { [key: string]: number } = {
     'BLUE-FIVE': 270,
     'BLUE-RED-TWO': 315,
     'BLUE-RED-FOUR': 315,
+    'ZOO': 315,
     'GARAGE': 315,
+    'NEST-CAGE': 337.5,
+    'GRUE-CAGE': 292.5,
+    'IN-GRUE-CAGE': 292.5,
 };
 
 const center = { x: 370.41666, y: 259.29169 };
@@ -60,7 +64,6 @@ export function map_scrollcenter(zstate: ZStatePlus, locname: string): OptPositi
                 x: vec.x * Math.cos(theta) + vec.y * Math.sin(theta),
                 y: vec.y * Math.cos(theta) - vec.x * Math.sin(theta),
             };
-            //###console.log('### ', theta, vec, res);
             return { x: res.x + center.x, y: res.y + center.y };
         }
     }
