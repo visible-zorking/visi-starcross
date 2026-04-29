@@ -26,14 +26,14 @@
      inkscape:document-units="px"
      showgrid="true"
      inkscape:zoom="1"
-     inkscape:cx="2824"
-     inkscape:cy="1427"
+     inkscape:cx="2808"
+     inkscape:cy="1430"
      inkscape:window-width="2080"
      inkscape:window-height="1234"
      inkscape:window-x="216"
      inkscape:window-y="80"
      inkscape:window-maximized="0"
-     inkscape:current-layer="roomlayer">
+     inkscape:current-layer="connlayer">
     <inkscape:grid
        id="grid1"
        units="px"
@@ -129,15 +129,6 @@
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient29"
-       id="linearGradient30"
-       x1="801.6875"
-       y1="425.97919"
-       x2="801.6875"
-       y2="386.29169"
-       gradientUnits="userSpaceOnUse" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient29"
        id="linearGradient31"
        gradientUnits="userSpaceOnUse"
        x1="801.6875"
@@ -148,7 +139,16 @@
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient29"
-       id="linearGradient32"
+       id="linearGradient34"
+       gradientUnits="userSpaceOnUse"
+       x1="801.6875"
+       y1="425.97919"
+       x2="801.6875"
+       y2="386.29169" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient29"
+       id="linearGradient35"
        gradientUnits="userSpaceOnUse"
        x1="801.6875"
        y1="425.97919"
@@ -158,7 +158,7 @@
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient29"
-       id="linearGradient33"
+       id="linearGradient36"
        gradientUnits="userSpaceOnUse"
        gradientTransform="translate(0,-84.666671)"
        x1="801.6875"
@@ -168,7 +168,7 @@
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient29"
-       id="linearGradient34"
+       id="linearGradient37"
        gradientUnits="userSpaceOnUse"
        gradientTransform="translate(0,-127.00002)"
        x1="801.6875"
@@ -522,13 +522,6 @@
        d="m 261.9375,251.35418 h 5.29166 l -2.64583,-7.9375 h 5.29167"
        id="path7" />
     <ellipse
-       style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:url(#linearGradient30);stroke-width:1.058;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;paint-order:stroke fill markers;stop-color:#000000;stop-opacity:1"
-       id="path29"
-       cx="801.68744"
-       cy="411.69168"
-       ry="28.045841"
-       rx="113.24166" />
-    <ellipse
        style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:url(#linearGradient31);stroke-width:1.058;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers;stop-color:#000000;stop-opacity:1"
        id="ellipse30"
        cx="801.68744"
@@ -536,26 +529,45 @@
        ry="28.045841"
        rx="106.09792" />
     <ellipse
-       style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:url(#linearGradient32);stroke-width:1.058;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers;stop-color:#000000;stop-opacity:1"
-       id="ellipse31"
+       style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:url(#linearGradient34);stroke-width:1.058;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers;stop-color:#000000;stop-opacity:1"
+       id="ellipse34"
+       cx="801.68744"
+       cy="411.69168"
+       ry="28.045841"
+       rx="106.09792" />
+    <ellipse
+       style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:url(#linearGradient35);stroke-width:1.058;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers;stop-color:#000000;stop-opacity:1"
+       id="ellipse35"
        cx="801.68744"
        cy="369.35843"
        ry="28.045841"
-       rx="119.32707" />
+       rx="106.09792" />
     <ellipse
-       style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:url(#linearGradient33);stroke-width:1.058;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers;stop-color:#000000;stop-opacity:1"
-       id="ellipse32"
+       style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:url(#linearGradient36);stroke-width:1.058;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers;stop-color:#000000;stop-opacity:1"
+       id="ellipse36"
        cx="801.68744"
        cy="327.02518"
        ry="28.045841"
-       rx="129.9104" />
+       rx="106.09792" />
     <ellipse
-       style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:url(#linearGradient34);stroke-width:1.058;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers;stop-color:#000000;stop-opacity:1"
-       id="ellipse33"
+       style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:url(#linearGradient37);stroke-width:1.058;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers;stop-color:#000000;stop-opacity:1"
+       id="ellipse37"
        cx="801.68744"
        cy="284.69193"
        ry="28.045841"
-       rx="136.78957" />
+       rx="106.09792" />
+    <path
+       style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#4d4d4d;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers;vector-effect:none;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       d="M 711.72913,298.97919 V 468.31252"
+       id="path37" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#bdb8b2;fill-opacity:0.227451;fill-rule:evenodd;stroke:#4d4d4d;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers;stop-color:#000000;stop-opacity:1"
+       d="M 891.64578,298.97919 V 468.31252"
+       id="path38" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#bdb8b2;fill-opacity:0.227451;fill-rule:evenodd;stroke:#4d4d4d;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.05833006,1.05833006;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers;stop-color:#000000;stop-opacity:1"
+       d="M 801.68744,298.97934 V 468.31267"
+       id="path39" />
   </g>
   <g
      inkscape:label="Rooms"
@@ -1128,7 +1140,7 @@
        id="r-scrub-2"
        width="21.166679"
        height="15.874991"
-       x="886.35413"
+       x="881.06244"
        y="418.04169"
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
@@ -1136,7 +1148,7 @@
        id="r-grassland-2"
        width="21.166679"
        height="15.874991"
-       x="891.64581"
+       x="881.06244"
        y="375.70834"
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
@@ -1144,7 +1156,7 @@
        id="r-metal-band-2"
        width="21.166679"
        height="15.874991"
-       x="896.93744"
+       x="881.06244"
        y="333.375"
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
@@ -1152,7 +1164,7 @@
        id="r-fore-end-2"
        width="21.166679"
        height="15.874991"
-       x="902.22913"
+       x="881.06244"
        y="291.04169"
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
@@ -1208,7 +1220,7 @@
        id="r-forest"
        width="21.166679"
        height="15.874991"
-       x="706.43744"
+       x="701.14581"
        y="460.37503"
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
@@ -1216,7 +1228,7 @@
        id="r-scrub"
        width="21.166679"
        height="15.874991"
-       x="701.14575"
+       x="701.14581"
        y="418.04169"
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
@@ -1224,7 +1236,7 @@
        id="r-grassland"
        width="21.166679"
        height="15.874991"
-       x="695.85406"
+       x="701.14587"
        y="375.70834"
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
@@ -1232,7 +1244,7 @@
        id="r-metal-band"
        width="21.166679"
        height="15.874991"
-       x="690.56244"
+       x="701.14581"
        y="333.375"
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
@@ -1240,7 +1252,7 @@
        id="r-fore-end"
        width="21.166679"
        height="15.874991"
-       x="685.27075"
+       x="701.14581"
        y="291.04169"
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
@@ -1248,7 +1260,7 @@
        id="r-repair-room"
        width="21.166679"
        height="15.874991"
-       x="672.04156"
+       x="666.74994"
        y="436.56253"
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
