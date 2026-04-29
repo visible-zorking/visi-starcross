@@ -26,14 +26,14 @@
      inkscape:document-units="px"
      showgrid="true"
      inkscape:zoom="1"
-     inkscape:cx="-139.5"
-     inkscape:cy="1052"
+     inkscape:cx="278.5"
+     inkscape:cy="1084"
      inkscape:window-width="2080"
      inkscape:window-height="1234"
      inkscape:window-x="219"
      inkscape:window-y="10"
      inkscape:window-maximized="0"
-     inkscape:current-layer="labellayer">
+     inkscape:current-layer="roomlayer">
     <inkscape:grid
        id="grid1"
        units="px"
@@ -686,7 +686,7 @@
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7"
        transform="rotate(22.5)" />
     <rect
-       id="rect1"
+       id="r-red-lock"
        width="21.166679"
        height="15.874998"
        x="-2.6458998"
@@ -694,7 +694,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect2"
+       id="r-yellow-lock"
        width="21.166679"
        height="15.875007"
        x="-2.6458998"
@@ -702,7 +702,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect3"
+       id="r-green-lock"
        width="15.875007"
        height="21.166668"
        x="37.04166"
@@ -710,7 +710,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect4"
+       id="r-blue-lock"
        width="15.874989"
        height="21.166668"
        x="-37.041779"
@@ -718,7 +718,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect9"
+       id="r-yellow-dock"
        width="21.166679"
        height="15.875007"
        x="10.583321"
@@ -726,7 +726,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect10"
+       id="r-red-dock"
        width="21.166679"
        height="15.875007"
        x="-15.875013"
@@ -734,7 +734,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect11"
+       id="r-green-dock"
        width="15.875007"
        height="21.166668"
        x="63.499992"
@@ -742,7 +742,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect12"
+       id="r-blue-dock"
        width="15.875007"
        height="21.166668"
        x="-63.500004"
@@ -750,7 +750,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect13"
+       id="r-yellow-dock-edge"
        width="21.166679"
        height="15.875007"
        x="39.687492"
@@ -758,7 +758,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect17"
+       id="r-bubble-room"
        width="15.875007"
        height="21.166668"
        x="-87.3125"
@@ -766,7 +766,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect18"
+       id="r-sphere-ship"
        width="15.875007"
        height="21.166668"
        x="-111.125"
@@ -774,7 +774,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect19"
+       id="r-spaceship-stores"
        width="21.166679"
        height="15.875007"
        x="-52.916672"
@@ -782,7 +782,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect20"
+       id="r-umbilical"
        width="15.875007"
        height="21.166668"
        x="63.499996"
@@ -790,7 +790,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect21"
+       id="r-cargo-room"
        width="15.875007"
        height="21.166668"
        x="63.499992"
@@ -798,7 +798,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect22"
+       id="r-guard-room"
        width="15.875007"
        height="21.166668"
        x="87.312492"
@@ -806,7 +806,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect23"
+       id="r-spaceship-bridge"
        width="21.166679"
        height="15.875007"
        x="-82.020836"
@@ -814,7 +814,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect24"
+       id="r-spaceship-quarters"
        width="21.166679"
        height="15.875007"
        x="-111.12501"
@@ -822,7 +822,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect25"
+       id="r-spaceship-airlock"
        width="21.166679"
        height="15.875007"
        x="-82.020836"
@@ -830,7 +830,7 @@
        ry="2.6458292"
        style="display:inline;fill:#f8f0e8;stroke:#000000;stroke-width:0.7" />
     <rect
-       id="rect114"
+       id="r-throne-room"
        width="15.875007"
        height="21.166668"
        x="39.687496"
@@ -1604,33 +1604,33 @@
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.96875px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato, Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
        x="7.9374995"
-       y="294.74582"
+       y="295.27499"
        id="text250-9"><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.96875px;font-family:Lato;-inkscape-font-specification:'Lato, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1"
          x="7.9374995"
-         y="294.74582"
+         y="295.27499"
          id="tspan250-8">Red</tspan><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.96875px;font-family:Lato;-inkscape-font-specification:'Lato, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1"
          x="7.9374995"
-         y="299.90518"
+         y="300.43436"
          id="tspan35-6">Airlock</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.96875px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato, Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
        x="-5.2916665"
-       y="321.20416"
+       y="321.73334"
        id="text10"><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.96875px;font-family:Lato;-inkscape-font-specification:'Lato, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1"
          x="-5.2916665"
-         y="321.20416"
+         y="321.73334"
          id="tspan9">Red</tspan><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.96875px;font-family:Lato;-inkscape-font-specification:'Lato, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1"
          x="-5.2916665"
-         y="326.36353"
+         y="326.8927"
          id="tspan10">Dock</tspan></text>
     <text
        xml:space="preserve"
@@ -1687,35 +1687,35 @@
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.96875px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato, Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
        x="259.29169"
-       y="27.516666"
+       y="28.045834"
        id="text73-4"
        transform="rotate(90)"><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.96875px;font-family:Lato;-inkscape-font-specification:'Lato, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1"
          x="259.29169"
-         y="27.516666"
+         y="28.045834"
          id="tspan72-1">Blue</tspan><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.96875px;font-family:Lato;-inkscape-font-specification:'Lato, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1"
          x="259.29169"
-         y="32.676041"
+         y="33.205208"
          id="tspan73-8">Airlock</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.96875px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato, Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
        x="246.06252"
-       y="53.974998"
+       y="54.504166"
        id="text50"
        transform="rotate(90)"><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.96875px;font-family:Lato;-inkscape-font-specification:'Lato, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1"
          x="246.06252"
-         y="53.974998"
+         y="54.504166"
          id="tspan49">Blue</tspan><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.96875px;font-family:Lato;-inkscape-font-specification:'Lato, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1"
          x="246.06252"
-         y="59.134373"
+         y="59.66354"
          id="tspan50">Dock</tspan></text>
     <text
        xml:space="preserve"
@@ -1733,18 +1733,18 @@
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.96875px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato, Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
        x="246.06252"
-       y="101.59999"
+       y="102.12916"
        id="text86"
        transform="rotate(90)"><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.96875px;font-family:Lato;-inkscape-font-specification:'Lato, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1"
          x="246.06252"
-         y="101.59999"
+         y="102.12916"
          id="tspan86">Spherical</tspan><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.96875px;font-family:Lato;-inkscape-font-specification:'Lato, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1"
          x="246.06252"
-         y="106.75937"
+         y="107.28854"
          id="tspan93">Ship</tspan></text>
     <text
        xml:space="preserve"
@@ -1843,5 +1843,54 @@
          x="-328.08334"
          y="51.196873"
          id="tspan119">Room</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.96875px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato, Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
+       x="-71.4375"
+       y="308.50421"
+       id="text121"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.96875px;font-family:Lato;-inkscape-font-specification:'Lato, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1"
+         x="-71.4375"
+         y="308.50421"
+         id="tspan121">Bridge</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.96875px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato, Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
+       x="-100.54167"
+       y="305.85834"
+       id="text122"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.96875px;font-family:Lato;-inkscape-font-specification:'Lato, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1"
+         x="-100.54167"
+         y="305.85834"
+         id="tspan122">Living</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.96875px;font-family:Lato;-inkscape-font-specification:'Lato, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1"
+         x="-100.54167"
+         y="311.0177"
+         id="tspan123">Quarters</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.96875px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato, Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
+       x="-42.333332"
+       y="307.97498"
+       id="text124"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.96875px;font-family:Lato;-inkscape-font-specification:'Lato, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1"
+         x="-42.333332"
+         y="307.97498"
+         id="tspan124">Storage</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.96875px;line-height:1.3;font-family:Lato;-inkscape-font-specification:'Lato, Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;display:inline;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker46);paint-order:stroke fill markers"
+       x="-71.4375"
+       y="331.78748"
+       id="text125"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.96875px;font-family:Lato;-inkscape-font-specification:'Lato, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1"
+         x="-71.4375"
+         y="331.78748"
+         id="tspan125">Airlock</tspan></text>
   </g>
 </svg>
