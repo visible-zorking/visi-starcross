@@ -24,10 +24,10 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
-     showgrid="true"
+     showgrid="false"
      inkscape:zoom="1"
-     inkscape:cx="518.5"
-     inkscape:cy="1146"
+     inkscape:cx="1699.5"
+     inkscape:cy="1097"
      inkscape:window-width="2080"
      inkscape:window-height="1234"
      inkscape:window-x="219"
@@ -47,7 +47,7 @@
        opacity="0.14902"
        empspacing="5"
        enabled="true"
-       visible="true" />
+       visible="false" />
   </sodipodi:namedview>
   <style
      id="style1">svg.DarkTheme { filter: invert(90%) hue-rotate(180deg); }
@@ -138,14 +138,6 @@
        x="367.77081"
        y="47.625004" />
     <rect
-       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#bcf1b1;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers;stop-color:#000000;stop-opacity:1"
-       id="rect7"
-       width="5.2916675"
-       height="174.625"
-       x="256.64584"
-       y="-582.08331"
-       transform="rotate(90)" />
-    <rect
        style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#b7cbf1;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers;stop-color:#000000;stop-opacity:1"
        id="rect8"
        width="5.291656"
@@ -153,6 +145,12 @@
        x="256.64584"
        y="-333.375"
        transform="rotate(90)" />
+    <path
+       id="rect7"
+       style="opacity:1;vector-effect:none;fill:#bcf1b1;fill-rule:evenodd;stroke-width:1.05833;paint-order:stroke fill markers;stop-color:#000000;stop-opacity:1"
+       transform="rotate(90)"
+       d="m 256.64584,-473.60415 5.29167,-2.64583 -10e-6,68.7918 h -5.29166 z"
+       sodipodi:nodetypes="ccccc" />
     <path
        style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#b7cbf1;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers;stop-color:#000000;stop-opacity:1"
        d="m -50.270833,238.12501 1e-6,10.58333 39.687499,15.87502 0,-10.58335 z"
@@ -172,6 +170,23 @@
        style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#f1c8c8;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers;stop-color:#000000;stop-opacity:1"
        d="m -13.229184,317.50001 h 10.58333 l 15.87502,-39.6875 H 2.645816 Z"
        id="path146"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       id="rect146"
+       style="opacity:1;vector-effect:none;fill:#bcf1b1;fill-rule:evenodd;stroke-width:1.05833;paint-order:stroke fill markers;stop-color:#000000;stop-opacity:1"
+       transform="rotate(90)"
+       d="m 256.64584,-587.375 h 5.29167 v 63.50002 l -5.29167,2.64583 z"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       id="rect147"
+       style="opacity:1;vector-effect:none;fill:#bcf1b1;fill-rule:evenodd;stroke-width:1.05833;paint-order:stroke fill markers;stop-color:#000000;stop-opacity:1"
+       transform="rotate(90)"
+       d="m 256.64584,-497.41666 5.29167,-2.64582 v 21.16666 l -5.29167,2.64584 z"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       id="path147"
+       style="opacity:1;vector-effect:none;fill:#bcf1b1;fill-rule:evenodd;stroke-width:1.05833;paint-order:stroke fill markers;stop-color:#000000;stop-opacity:1"
+       d="m 518.58333,256.64584 2.64582,5.29167 -18.52083,0 -2.64584,-5.29167 z"
        sodipodi:nodetypes="ccccc" />
   </g>
   <g
