@@ -79,12 +79,14 @@ const map_rotations: { [key: string]: number } = {
     'IN-GRUE-CAGE': 292.5,
 };
 
-const center = { x: 698.5, y: 259.29169 };
+const center_cylinder = { x: 698.5, y: 259.29169 };
+const center_docking_ring = { x:214.31248, y:259.29169 };
 
 export function map_scrollcenter(zstate: ZStatePlus, locname: string): OptPosition
 {
     let rot = map_rotations[locname || ''];
     if (rot) {
+        let center = (map_docking_ring[locname || ''] ? center_docking_ring : center_cylinder);
         let theta = -Math.PI * (rot / 180.0);
         let roomobj = gamedat_roominfo_names.get(locname);
         if (roomobj) {
@@ -109,6 +111,7 @@ export function map_adjustments(zstate: ZStatePlus): ExtraToggle[]
     let ls: ExtraToggle[] = [];
 
     let rot = map_rotations[locname || ''];
+    let center = (map_docking_ring[locname || ''] ? center_docking_ring : center_cylinder);
     
     let mtransform = '';
     if (rot) {
