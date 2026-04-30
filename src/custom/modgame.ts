@@ -8,6 +8,22 @@ export function show_commentary_hook(topic: string, engine: GnustoEngine): strin
     return null;
 }
 
+const map_docking_ring: { [key: string]: boolean } = {
+    'GREEN-LOCK': true,
+    'GREEN-DOCK': true,
+    'UMBILICAL': true,
+    'CARGO-ROOM': true,
+    'GUARD-ROOM': true,
+    'THRONE-ROOM': true,
+    'YELLOW-LOCK': true,
+    'YELLOW-DOCK': true,
+    'YELLOW-DOCK-EDGE': true,
+    'BLUE-LOCK': true,
+    'BLUE-DOCK': true,
+    'BUBBLE-ROOM': true,
+    'SPHERE-SHIP': true,
+}
+
 const map_rotations: { [key: string]: number } = {
     'GREEN-LOCK': 90,
     'GREEN-DOCK': 90,
