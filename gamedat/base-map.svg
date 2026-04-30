@@ -24,16 +24,16 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
-     showgrid="true"
+     showgrid="false"
      inkscape:zoom="1"
-     inkscape:cx="4531"
-     inkscape:cy="1552"
+     inkscape:cx="784"
+     inkscape:cy="824"
      inkscape:window-width="2080"
      inkscape:window-height="1234"
-     inkscape:window-x="215"
+     inkscape:window-x="214"
      inkscape:window-y="80"
      inkscape:window-maximized="0"
-     inkscape:current-layer="roomlayer">
+     inkscape:current-layer="decorlayer">
     <inkscape:grid
        id="grid1"
        units="px"
@@ -47,7 +47,7 @@
        opacity="0.14902"
        empspacing="5"
        enabled="true"
-       visible="true" />
+       visible="false" />
   </sodipodi:namedview>
   <style
      id="style1">svg.DarkTheme { filter: invert(90%) hue-rotate(180deg); }
@@ -148,14 +148,14 @@
      id="decorlayer"
      inkscape:label="Back-Decor">
     <rect
-       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#f1c8c8;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers;stop-color:#000000;stop-opacity:1"
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#fab9b9;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers;stop-color:#000000;stop-opacity:1"
        id="rect5"
        width="5.2916746"
        height="174.62502"
        x="695.85413"
        y="296.33334" />
     <rect
-       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#f1e3a7;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers;stop-color:#000000;stop-opacity:1"
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#f2d662;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers;stop-color:#000000;stop-opacity:1"
        id="rect6"
        width="5.2916746"
        height="174.625"
@@ -171,7 +171,7 @@
        transform="rotate(90)" />
     <path
        id="rect7"
-       style="opacity:1;vector-effect:none;fill:#bcf1b1;fill-rule:evenodd;stroke-width:1.05833;paint-order:stroke fill markers;stop-color:#000000;stop-opacity:1"
+       style="opacity:1;vector-effect:none;fill:#a3f193;fill-rule:evenodd;stroke-width:1.05833;paint-order:stroke fill markers;stop-color:#000000;stop-opacity:1;fill-opacity:1"
        d="m 801.68748,256.64584 2.64583,5.29167 -68.7918,-10e-6 v -5.29166 z"
        sodipodi:nodetypes="ccccc" />
     <path
@@ -180,33 +180,33 @@
        id="path143"
        sodipodi:nodetypes="ccccc" />
     <path
-       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#bcf1b1;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers;stop-color:#000000;stop-opacity:1"
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#a3f193;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers;stop-color:#000000;stop-opacity:1"
        d="m 288.39582,256.64583 v 5.29167 l 39.6875,15.87502 v -5.29169 z"
        id="path144"
        sodipodi:nodetypes="ccccc" />
     <path
-       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#f1e3a7;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers;stop-color:#000000;stop-opacity:1"
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#f2d662;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers;stop-color:#000000;stop-opacity:1"
        d="m 211.66667,185.20834 h 5.29166 l 15.875,-39.6875 h -5.29167 z"
        id="path145"
        sodipodi:nodetypes="ccccc" />
     <path
-       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#f1c8c8;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers;stop-color:#000000;stop-opacity:1"
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#fab9b9;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers;stop-color:#000000;stop-opacity:1"
        d="m 193.14582,373.0625 h 5.29165 l 15.87502,-39.6875 h -5.29167 z"
        id="path146"
        sodipodi:nodetypes="ccccc" />
     <path
        id="rect146"
-       style="opacity:1;vector-effect:none;fill:#bcf1b1;fill-rule:evenodd;stroke-width:1.05833;paint-order:stroke fill markers;stop-color:#000000;stop-opacity:1"
+       style="opacity:1;vector-effect:none;fill:#a3f193;fill-rule:evenodd;stroke-width:1.05833;paint-order:stroke fill markers;stop-color:#000000;stop-opacity:1;fill-opacity:1"
        d="m 915.45833,256.64584 v 5.29167 h -63.50002 l -2.64583,-5.29167 z"
        sodipodi:nodetypes="ccccc" />
     <path
        id="rect147"
-       style="opacity:1;vector-effect:none;fill:#bcf1b1;fill-rule:evenodd;stroke-width:1.05833;paint-order:stroke fill markers;stop-color:#000000;stop-opacity:1"
+       style="opacity:1;vector-effect:none;fill:#a3f193;fill-rule:evenodd;stroke-width:1.05833;paint-order:stroke fill markers;stop-color:#000000;stop-opacity:1;fill-opacity:1"
        d="m 825.49999,256.64584 2.64582,5.29167 h -21.16666 l -2.64584,-5.29167 z"
        sodipodi:nodetypes="ccccc" />
     <path
        id="path147"
-       style="opacity:1;vector-effect:none;fill:#bcf1b1;fill-rule:evenodd;stroke-width:1.05833;paint-order:stroke fill markers;stop-color:#000000;stop-opacity:1"
+       style="opacity:1;vector-effect:none;fill:#a3f193;fill-rule:evenodd;stroke-width:1.05833;paint-order:stroke fill markers;stop-color:#000000;stop-opacity:1;fill-opacity:1"
        d="m 846.66666,256.64584 2.64582,5.29167 h -18.52083 l -2.64584,-5.29167 z"
        sodipodi:nodetypes="ccccc" />
   </g>
