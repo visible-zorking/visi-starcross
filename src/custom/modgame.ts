@@ -9,6 +9,20 @@ export function show_commentary_hook(topic: string, engine: GnustoEngine): strin
 }
 
 const map_rotations: { [key: string]: number } = {
+    'GREEN-LOCK': 90,
+    'GREEN-DOCK': 90,
+    'UMBILICAL': 90,
+    'CARGO-ROOM': 90,
+    'GUARD-ROOM': 90,
+    'THRONE-ROOM': 90,
+    'YELLOW-LOCK': 180,
+    'YELLOW-DOCK': 180,
+    'YELLOW-DOCK-EDGE': 180,
+    'BLUE-LOCK': 270,
+    'BLUE-DOCK': 270,
+    'BUBBLE-ROOM': 270,
+    'SPHERE-SHIP': 270,
+    
     'VILLAGE-NW-EDGE': 22.5,
     'VILLAGE': 45,
     'VILLAGE-SW-EDGE': 45,
@@ -49,7 +63,7 @@ const map_rotations: { [key: string]: number } = {
     'IN-GRUE-CAGE': 292.5,
 };
 
-const center = { x: 370.41666, y: 259.29169 };
+const center = { x: 698.5, y: 259.29169 };
 
 export function map_scrollcenter(zstate: ZStatePlus, locname: string): OptPosition
 {
