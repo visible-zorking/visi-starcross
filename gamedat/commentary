@@ -105,6 +105,8 @@ src:SF-2: The game is variously referred to in the source headers as “Zork SF 
 
 src:DUNGEON-3: This is so closely derived from the Zork source code that the game map is still called the “DUNGEON”!
 
+src:EMERG-6: The comment refers to “lighting and environmental controls”, but it’s not obvious why *these* devices have been split off into their own file. All the rest of the game logic is stuffed into `actions.zil`. Perhaps the author started to split everything up into functional groups and just never got very far.
+
 obj:GRUE-SIGN: The artifact has dark rooms; dark rooms have grues; therefore the artifact needs a source of grues. They’re willing to drop the world consistency by putting the sign in English, though.
 	(Also by implying that the artifact has visited Sol system before? Nothing else in the game says that.)
 	`WHAT IS A GRUE` works, by the way.
@@ -139,7 +141,7 @@ src:DUNGEON-1051: The [obj:LADDER] scenery reference should probably be to [~obj
 src:ACTIONS-3199: I always wanted to be able to put *any* rod into the gun, and thus produce a “giant blast of red rays” or “black rays” or whatever color I wanted. Sadly the game does not support it.
 
 src:ACTIONS-2127: Pluto was still a planet when *Starcross* was written.
-	The first time I faced this puzzle, I didn't catch on that the first bump was the Sun. I pressed the `FOURTH BUMP` because Mars was the nearest planet – it was even mentioned on the mass chart! Luckily my mistakes cancelled out.
+	The first time I faced this puzzle, I didn’t catch on that the first bump was the Sun. I pressed the `FOURTH BUMP` because Mars was the nearest planet – it was even mentioned on the mass chart! Luckily my mistakes cancelled out.
 
 src:ACTIONS-1586: The first thing I ever tried with the disks was putting one on top of the other. They exploded, and I decided they must be a two-part explosive! I spent several days trying to solve puzzles by blowing things up before I realized my mistake.
 
