@@ -277,8 +277,8 @@ function NameList({ level }: { level:string })
 }
 
 const patreon_donors: { [key: string]: string[] } = {
-    "Contributor": ["Ben Cressey", "Brad Jones", "Christopher Cotton", "Jeff Nyman", "John Leen", "Matthew Murray", "Paul Mazaitis", "Peter Berger", "Petter Sj\u00f6lund"],
+    "Contributor": ["Ben Cressey", "Brad Jones", "Christopher Cotton", "Jeff Nyman", "John Leen", "Matthew Murray", "Paul Mazaitis", "Peter Berger", "Petter Sj\u00f6lund", "Yoon Ha Lee"],
     "Fancy Contributor": ["David Rheingold"],
-    "Participant": ["Aaron Reed", "Adam B", "Adam Thornton", "Alex Seubert", "Aneel Nazareth", "arcanetrivia", "chad royal", "Chris Spiegel", "Christian N", "Curtis Frye", "Damien Neil", "Daniel Sharpe", "David Cornelson", "DJ Lang", "Doug Orleans", "Emily Short", "Eric Nyman", "J. Ryan Stinnett", "James Tranovich", "Jason Compton", "Jo Walton", "John Faulkenbury", "John Krewson", "Joshua Grams", "JT", "Jules Graybill", "Liza Daly", "Mark Sample", "Marty McGuire", "Matthew Griffin", "Michael Rubin", "Mike Wiese", "Monica M", "ndiddy", "Olivier L.", "pdxeric", "Tobias V. Langhoff", "Torbj\u00f6rn Andersson", "Zeke Pabski"],
-    "Supporter": ["Cat", "Christopher", "crashp1t", "Daniel Smith", "Derrell Piper", "JP Sugarbroad", "Lachlan Cooper", "louis rodriguez", "Mick Stone", "Nevin", "Pinkunz", "Vivienne Dunstan"],
+    "Participant": ["Aaron Reed", "Adam B", "Adam Thornton", "Alex Seubert", "Anders Madsen", "Aneel Nazareth", "arcanetrivia", "chad royal", "Chris Spiegel", "Christian N", "Curtis Frye", "Damien Neil", "Daniel Sharpe", "David Cornelson", "DJ Lang", "Doug Orleans", "Emily Short", "Eric Nyman", "Georg Wille", "J. Ryan Stinnett", "James Tranovich", "Jason Compton", "Jo Walton", "John Faulkenbury", "John Krewson", "Josh Johnson", "Joshua Grams", "JT", "Jules Graybill", "Liza Daly", "Mark Musante", "Mark Sample", "Marty McGuire", "Matthew Blakley", "Matthew Griffin", "Michael Rubin", "Mike Wiese", "Monica M", "ndiddy", "Olivier L.", "Patrick Palmer", "pdxeric", "Roody Yogurt", "Tobias V. Langhoff", "Torbj\u00f6rn Andersson", "Zeke Pabski"],
+    "Supporter": ["Cat", "Christopher", "crashp1t", "Daniel Smith", "Derrell Piper", "Lachlan Cooper", "louis rodriguez", "Mick Stone", "Nevin", "Vivienne Dunstan"],
 }
