@@ -138,6 +138,20 @@ rtn:I-MOUSE: This timer controls the [~obj:MOUSE]. It runs every other turn afte
 src:ACTIONS-974: The discs have to be outside the container so that you can teleport properly.
 	If the [~obj:MOUSE] doesn’t leave the [~obj:GARAGE] next turn, it will pick the disks up and immediately drop them. [rtn:I-MOUSE] avoids printing the “picks up some refuse” while in the [~obj:GARAGE], so the player won’t notice this.
 
+glob:SEEN-MOUSE?: Whether you’ve seen the mouse before. The first time it appears, you are treated to a long description ([~glob:LONG-MOUSE]) by way of introduction.
+
+rtn:MOVE-MOUSE: Move the [~obj:MOUSE] on its regular random walk through the artifact. (Going to and from the [~obj:GARAGE] is handled by [rtn:I-MOUSE].) The logic is a bit convoluted.
+	It iterates through the properties of the mouse’s location. (Direction properties are listed first, starting with `NORTH`.) It *looks* like it should always select the first exit, despite the `<PROB 50>` line, but clearly the motion is in fact randomized. I am still working this out.
+
+# for P in properties:
+#  if D:
+#    move mouse to D (except MAZE or UP-A-TREE)
+#  T = H.&P
+#  L = H.#P
+#  if T represents a valid exit:
+#    if (not D) or 50% chance:
+#      D = the T exit destination
+
 glob:MOUSE-LOC: The room from which the [~obj:MOUSE] entered the [~obj:GARAGE], and to which it will return.
 
 glob:GARAGED?: Set for one turn (only) after the [~obj:MOUSE] enters the [~obj:GARAGE].
