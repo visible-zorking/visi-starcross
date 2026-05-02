@@ -105,6 +105,9 @@ src:SF-2: The game is variously referred to in the source headers as “Zork SF 
 
 src:DUNGEON-3: This is so closely derived from the Zork source code that the game map is still called the “DUNGEON”!
 
+src:DUNGEON-8: The `LAND` and `CROSS` directions are carried over from Zork 2 or 3. *Starcross* does not use these. (*Zork 1* didn’t have `CROSS`, but it had `LAND` in the sense of “land the raft”.)
+	*Starcross* is the first Infocom game to dispense with diagonal directions. This is probably because of the `FORE`, `AFT`, `STARBOARD`, `PORT` synonyms; an `AFTPORT` exit would be confusing. Happily the very grid-like map works in this setting.
+
 src:EMERG-6: The comment refers to “lighting and environmental controls”, but it’s not obvious why *these* devices have been split off into their own file. All the rest of the game logic is stuffed into `actions.zil`. Perhaps the author started to split everything up into functional groups and just never got very far.
 
 obj:GRUE-SIGN: The artifact has dark rooms; dark rooms have grues; therefore the artifact needs a source of grues. They’re willing to drop the world consistency by putting the sign in English, though.
