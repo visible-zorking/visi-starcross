@@ -14,7 +14,7 @@
     "rearrange-tables": "python3 visiterp/pyana/parse.py --game starcross-r15-s820901 -z gamesrc/sf.zil --zcode gamedat/starcross-r15-s820901.z3 --gamedat",
     "recolor-source": "python3 visiterp/pyana/parse.py --game starcross-r15-s820901 -z gamesrc/sf.zil --src",
     "regenerate-commentary": "python3 visiterp/pyana/comgen.py gamedat/commentary",
-    "reparse-map": "python3 visiterp/pyana/mapparse.py gamedat/base-map.svg starcross-r15-s820901"
+    "reparse-map": "python3 visiterp/pyana/mapparse.py gamedat/base-map.svg --game starcross-r15-s820901"
   },
   "type": "module",
   "dependencies": {
