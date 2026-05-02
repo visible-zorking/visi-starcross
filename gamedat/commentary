@@ -13,7 +13,7 @@ rtn:V-VERSION: Print the title, release, and serial number.
 
 GRAMMAR-LEGEND: This is the list of verb forms which the game recognizes. (Simple directions like `NORTH` are a special case; they’re not listed here.) These are compiled from the [SYNTAX|~src:SYNTAX-58] file.
 	Objects in a verb line have various flags which give hints about their usage. An object attribute (like `LIGHTBIT`) means that if the player doesn’t name an object, the parser will try to guess one with that attribute.
-	The other flag letters have specific meanings: the object must be **h**eld; the object will be **t**aken if not held; the object should be **i**n the room or **o**n the ground; the object should be **p**ossessed or **c**arried in a container. (Yes, they’re confusing. Infocom’s own docs say “No one really understands them except Stu” (Galley).)
+	The other flag letters have specific meanings: **m**ultiple objects are accepted; the player must **h**ave the object; the player will automatically **t**ake the object; the object should be **i**n the room or **o**n the ground; the object should be **p**ossessed or **c**arried in a container. (Yes, they’re confusing. Infocom’s own docs say “No one really understands them except Stu” (Galley).)
 
 attr:RMUNGBIT: Not applied to real objects. `RMUNGBIT` is a hack used in grammar lines; it means the object is optional (but the preposition before it is required). This allows the parser to accept commands like [LOOK AROUND|~src:SYNTAX-218].
 
