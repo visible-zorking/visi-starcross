@@ -155,17 +155,19 @@ src:ACTIONS-974: The discs have to be outside the container so that you can tele
 
 glob:SEEN-MOUSE?: Whether you’ve seen the mouse before. The first time it appears, you are treated to a long description ([~glob:LONG-MOUSE]) by way of introduction.
 
-rtn:MOVE-MOUSE: Move the [~obj:MOUSE] on its regular random walk through the artifact. (Going to and from the [~obj:GARAGE] is handled by [rtn:I-MOUSE].) The logic is a bit convoluted.
-	It iterates through the properties of the mouse’s location. (Direction properties are listed first, starting with `NORTH`.) It *looks* like it should always select the first exit, despite the `<PROB 50>` line, but clearly the motion is in fact randomized. I am still working this out.
+rtn:MOVE-MOUSE: Move the [~obj:MOUSE] on its regular random walk through the artifact. (Going to and from the [~obj:GARAGE] is handled by [rtn:I-MOUSE].)
+	It iterates through the properties of the mouse’s location. ([Direction properties|~src:DUNGEON-8] are listed first.) The first valid exit found is stored in `.D`; further valid exits have a 50% chance of replacing `.D`. When the loop is out of directions, if `.D` is set, the mouse moves there. (Except that [~obj:MAZE] and [~obj:UP-A-TREE] are off-limits.)
+	The result is a fairly random exit selection, although it’s biased towards later directions: `SOUTH` is more likely than `NORTH`, etc.
+	(This is an unusually LISP-y function. It took me several tries to work out how it worked.)
 
 # for P in properties:
-#  if D:
-#    move mouse to D (except MAZE or UP-A-TREE)
-#  T = H.&P
-#  L = H.#P
-#  if T represents a valid exit:
-#    if (not D) or 50% chance:
-#      D = the T exit destination
+#   T = H.&P
+#   L = H.#P
+#   if T represents a valid exit:
+#     if (not D) or 50% chance:
+#       D = the T exit destination
+# if D:
+#   move mouse to D (except MAZE or UP-A-TREE)
 
 glob:MOUSE-LOC: The room from which the [~obj:MOUSE] entered the [~obj:GARAGE], and to which it will return.
 
