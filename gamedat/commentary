@@ -115,6 +115,8 @@ rtn:V-FROBOZZ: No command calls this verb routine, sadly. (Zork 1 and 2 had an a
 
 rtn:V-REPORT: The command `COMPUTER, REPORT STATUS` works and is useful in the first scene.
 
+rtn:V-SMELL: Delightfully, if you’re wearing the [~obj:SPACESUIT], everything smells like a space suit.
+
 
 glob:MASSES: The object numbers of the eight uncharted masses.
 
@@ -127,8 +129,21 @@ src:ACTIONS-60: The cranky computer must surely have been inspired by *Hitchhike
 src:ACTIONS-709: This is the only point where the game mentions that you’re prospecting for *quantum* black holes – that is, microscopic ones. (The manual intro also mentions it, but who reads manuals...) We’re not talking about giant star-swallowing black holes hiding in the asteroid belt.
 	Stephen Hawking first hypothesized quantum black holes in the 1970s. They quickly became an SF staple. Teeny-weeny ones would evaporate instantly, but slightly less tiny “primordial” holes left over from the Big Bang might survive.
 
+obj:SPACESUIT: The suit’s oxygen tank has no timer or limit. Everybody plays as if it’s a precious resource, but it’s not!
+	(But you can’t use this fact to survive after the artifact’s atmosphere goes bad. See [rtn:I-BAD-AIR].)
+
 
 rtn:TENTACLE-APPEARS: This routine sneakily starts up the artifact’s general timers ([rtn:I-MOUSE] and [rtn:I-BAD-AIR]). We don’t want to run down the atmosphere timer while the player figures out how to control their ship.
+
+
+rtn:I-BAD-AIR: This timer handles the slow degradation of the artifact’s atmosphere.
+	If the air runs out completely while you are wearing the [obj:SPACESUIT], the power goes out instead – sorry! If you were outside the artifact, the shutdown politely waits for you to return.
+	
+rtn:I-POISON-AIR: This timer handles the replacement of the artifact’s atmosphere if you select the wrong option in the [~obj:REPAIR-ROOM].
+	As with [rtn:I-BAD-AIR], wearing the [obj:SPACESUIT] will not save you.
+	
+rtn:I-FRESH-AIR: This timer handles the refreshing of the artifact’s atmosphere if you select the right option in the [~obj:REPAIR-ROOM].
+
 
 rtn:I-MOUSE: This timer controls the [~obj:MOUSE]. It runs every other turn after you dock ([rtn:TENTACLE-APPEARS]). The plan in a nutshell:
 	It tries to pick up nearby objects ([~rtn:ROB]).
