@@ -507,6 +507,7 @@ Global 178 VERBS  table created from SYNTAX
 # Argument type info for routines that are hard to guess.
 
 RoutineType - AIRLOCK-OPEN OBJ OBJ OBJ
+RoutineType - ALREADY STR OBJ
 RoutineType - CLAUSE - - WORD
 RoutineType - DDESC OBJ
 RoutineType - DESCRIBE-LOCK STR OBJ OBJ
