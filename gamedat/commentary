@@ -128,6 +128,21 @@ src:ACTIONS-709: This is the only point where the game mentions that you’re pr
 	Stephen Hawking first hypothesized quantum black holes in the 1970s. They quickly became an SF staple. Teeny-weeny ones would evaporate instantly, but slightly less tiny “primordial” holes left over from the Big Bang might survive.
 
 
+rtn:TENTACLE-APPEARS: This routine sneakily starts up the artifact’s general timers ([rtn:I-MOUSE] and [rtn:I-BAD-AIR]). We don’t want to run down the atmosphere timer while the player figures out how to control their ship.
+
+rtn:I-MOUSE: This timer controls the [~obj:MOUSE]. It runs every other turn after you dock ([rtn:TENTACLE-APPEARS]). The plan in a nutshell:
+	It tries to pick up nearby objects ([~rtn:ROB]).
+	If it’s in the [~obj:GARAGE], it deposits its load in the [~obj:TRASH-BIN], and then (40% chance) returns to [glob:MOUSE-LOC] through its sneaky [~obj:MOUSE-HOLE].
+	If it’s anywhere else, it has a 15% chance of going to the [~obj:GARAGE] and setting [glob:MOUSE-LOC]. Otherwise, it proceeds on its rounds via [rtn:MOVE-MOUSE] and does an additional [~rtn:ROB] for good measure.
+
+src:ACTIONS-974: The discs have to be outside the container so that you can teleport properly.
+	If the [~obj:MOUSE] doesn’t leave the [~obj:GARAGE] next turn, it will pick the disks up and immediately drop them. [rtn:I-MOUSE] avoids printing the “picks up some refuse” while in the [~obj:GARAGE], so the player won’t notice this.
+
+glob:MOUSE-LOC: The room from which the [~obj:MOUSE] entered the [~obj:GARAGE], and to which it will return.
+
+glob:GARAGED?: Set for one turn (only) after the [~obj:MOUSE] enters the [~obj:GARAGE].
+
+
 src:ACTIONS-2169: This “Lose, lose!” message seems to cover a branch that cannot occur ([~glob:P-ADJECTIVE] is neither zero nor non-zero). Possibly this was needed to cover a compiler bug?
 	Interestingly, the compiled file is missing the string “Lose, lose!” – it’s just got a lone “!” Same compiler bug? Or was the source modified after the last compile?
 
