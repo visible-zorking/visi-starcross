@@ -1,7 +1,7 @@
 import { unpack_address } from '../visi/gametypes';
 import { GnustoEngine, ZState, ZStatePlus } from '../visi/zstate';
 import { OptPosition, ExtraToggle } from '../visi/map';
-import { gamedat_routine_names, gamedat_global_names, gamedat_string_map, gamedat_object_ids, gamedat_roominfo_names } from '../visi/gamedat';
+import { gamedat_ids, gamedat_routine_names, gamedat_global_names, gamedat_string_map, gamedat_object_ids, gamedat_roominfo_names } from '../visi/gamedat';
 
 export function show_commentary_hook(topic: string, engine: GnustoEngine): string|null
 {
@@ -79,14 +79,12 @@ const map_rotations: { [key: string]: number } = {
     'IN-GRUE-CAGE': 292.5,
 };
 
-const center_cylinder = { x: 698.5, y: 259.29169 };
-const center_docking_ring = { x:214.31248, y:259.29169 };
+const center = { x:952.49997/2, y:952.49994/2 };
 
 export function map_scrollcenter(zstate: ZStatePlus, locname: string): OptPosition
 {
     let rot = map_rotations[locname || ''];
     if (rot) {
-        let center = (map_docking_ring[locname || ''] ? center_docking_ring : center_cylinder);
         let theta = -Math.PI * (rot / 180.0);
         let roomobj = gamedat_roominfo_names.get(locname);
         if (roomobj) {
@@ -111,7 +109,6 @@ export function map_adjustments(zstate: ZStatePlus): ExtraToggle[]
     let ls: ExtraToggle[] = [];
 
     let rot = map_rotations[locname || ''];
-    let center = (map_docking_ring[locname || ''] ? center_docking_ring : center_cylinder);
     
     let mtransform = '';
     if (rot) {
