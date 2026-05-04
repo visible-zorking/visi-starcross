@@ -79,7 +79,8 @@ const map_rotations: { [key: string]: number } = {
     'IN-GRUE-CAGE': 292.5,
 };
 
-const center = { x:952.49997/2, y:952.49994/2 };
+const center = { x: 952.49997/2, y: 952.49994/2 };
+const labelcenter = { x:677.3333, y: 597.95819 };
 
 export function map_scrollcenter(zstate: ZStatePlus, locname: string): OptPosition
 {
@@ -117,12 +118,14 @@ export function map_adjustments(zstate: ZStatePlus): ExtraToggle[]
     ls.push({ id: 'turntable', transform: mtransform });
 
     if (rot) {
-        mtransform = 'translate('+center.x+','+center.y+'), rotate('+(360-rot)+')';
+        mtransform = 'translate('+labelcenter.x+','+labelcenter.y+'), rotate('+(360-rot)+')';
     }
     else {
-        mtransform = 'translate('+center.x+','+center.y+')';
+        mtransform = 'translate('+labelcenter.x+','+labelcenter.y+')';
     }
     ls.push({ id: 'label-center', transform: mtransform });
+
+    //### mouse with rotation
     
     return ls;
 }
