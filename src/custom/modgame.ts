@@ -129,6 +129,7 @@ export function map_adjustments(zstate: ZStatePlus): ExtraToggle[]
     if (zobj) {
         let mobcen: OptPosition = null;
         let mobloc: ObjectData|undefined;
+        let mobrot: number = 0
         if (zobj.parent) {
             mobloc = gamedat_object_ids.get(zobj.parent);
             if (mobloc) {
@@ -136,12 +137,13 @@ export function map_adjustments(zstate: ZStatePlus): ExtraToggle[]
                 if (throomobj) {
                     mobcen = throomobj.bottom;
                 }
+                mobrot = map_rotations[mobloc.name] || 0;
             }
         }
         if (mobcen && mobloc) {
             let posx = mobcen.x;
             let posy = mobcen.y;
-            let mtransform = 'translate('+posx+','+posy+')';
+            let mtransform = 'translate('+posx+','+posy+'), rotate('+(360-mobrot)+')';
             ls.push({ id: 'mob-mouse', class:'', transform: mtransform });
         }
         else {
