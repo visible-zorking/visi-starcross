@@ -72,7 +72,7 @@ export function TabbedPane()
         tabcontent = <CallActivity />;
         break;
     case 'map':
-        tabcontent = <GameMap extras={ map_adjustments } scrollcenter={ map_scrollcenter } />;
+        tabcontent = <GameMap filename={ 'pic/map2.svg' } extras={ map_adjustments } scrollcenter={ map_scrollcenter } />;
         break;
     case 'globals':
         tabcontent = <GlobalState />;
