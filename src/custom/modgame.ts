@@ -1,4 +1,4 @@
-import { unpack_address } from '../visi/gametypes';
+import { unpack_address, ObjectData } from '../visi/gametypes';
 import { GnustoEngine, ZState, ZStatePlus } from '../visi/zstate';
 import { OptPosition, ExtraToggle } from '../visi/map';
 import { gamedat_ids, gamedat_routine_names, gamedat_global_names, gamedat_string_map, gamedat_object_ids, gamedat_roominfo_names } from '../visi/gamedat';
@@ -125,7 +125,29 @@ export function map_adjustments(zstate: ZStatePlus): ExtraToggle[]
     }
     ls.push({ id: 'label-center', transform: mtransform });
 
-    //### mouse with rotation
+    let zobj = zstate.objects[gamedat_ids.MOUSE-1];
+    if (zobj) {
+        let mobcen: OptPosition = null;
+        let mobloc: ObjectData|undefined;
+        if (zobj.parent) {
+            mobloc = gamedat_object_ids.get(zobj.parent);
+            if (mobloc) {
+                let throomobj = gamedat_roominfo_names.get(mobloc.name);
+                if (throomobj) {
+                    mobcen = throomobj.bottom;
+                }
+            }
+        }
+        if (mobcen && mobloc) {
+            let posx = mobcen.x;
+            let posy = mobcen.y;
+            let mtransform = 'translate('+posx+','+posy+')';
+            ls.push({ id: 'mob-mouse', class:'', transform: mtransform });
+        }
+        else {
+            ls.push({ id: 'mob-mouse', class:'Offstage' });
+        }
+    }
     
     return ls;
 }

@@ -33,10 +33,8 @@ export function TabbedPane()
 {
     let rctx = useContext(ReactCtx);
 
-    const mobiles = [
-        gamedat_ids.MOUSE,
-    ];
-
+    // gamedat_ids.MOUSE is handled in map_adjustments rather than mobiles[].
+    
     let ells = tab_list.map(([key, label]) => {
         let cla = 'TabItem';
         if (key == rctx.tab)
@@ -74,7 +72,7 @@ export function TabbedPane()
         tabcontent = <CallActivity />;
         break;
     case 'map':
-        tabcontent = <GameMap mobiles={ mobiles } extras={ map_adjustments } scrollcenter={ map_scrollcenter } />;
+        tabcontent = <GameMap extras={ map_adjustments } scrollcenter={ map_scrollcenter } />;
         break;
     case 'globals':
         tabcontent = <GlobalState />;
