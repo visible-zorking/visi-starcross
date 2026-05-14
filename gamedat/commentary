@@ -60,7 +60,7 @@ attr:ONBIT: Set for glowing objects and permanently-illuminated rooms.
 
 attr:RLANDBIT: Set for rooms with gravity and a solid floor. The practical effect is that the disks work in such rooms.
 
-attr:SPACEBIT: Set for rooms in outer space. You need the [~obj:SPACESUIT] to survive.
+attr:SPACEBIT: Set for rooms in outer space. You need the [obj:SPACESUIT] to survive.
 
 attr:RAIRBIT: Set for room with air but no gravity.
 
@@ -134,6 +134,9 @@ src:ACTIONS-709: This is the only point where the game mentions that you’re pr
 
 obj:SPACESUIT: The suit’s oxygen tank has no timer or limit. Everybody plays as if it’s a precious resource, but it’s not!
 	(But you can’t use this fact to survive after the artifact’s atmosphere goes bad. See [rtn:I-BAD-AIR].)
+
+obj:SAFETY-HOOK: An Infocom ZIL manual from 1982 mentions:
+	“(Verb synonyms) must be used with great caution if they are also another part of speech.  This problem occurred in STARCROSS with the word HOOK, which was made a synonym of TIE.  Unfortunately, HOOK is also a noun in STARCROSS.  The results were peculiar.  Speak to Dave (Lebling) or Marc (Blank) if a problem like this arises.”
 
 
 rtn:TENTACLE-APPEARS: This routine sneakily starts up the artifact’s general timers ([rtn:I-MOUSE] and [rtn:I-BAD-AIR]). We don’t want to run down the atmosphere timer while the player figures out how to control their ship.
