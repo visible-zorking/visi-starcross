@@ -28,7 +28,7 @@ obj:LOCAL-GLOBALS: This is a container for scenery objects like [~obj:PLANTERS],
 
 
 src:DUNGEON-19: This refers to the word `MGCKJK` in [~obj:LOCAL-GLOBALS], above.
-	Why is this synonym necessary? Does it need to be alphabetically last? Not clear! Most Infocom games have it (or a variation), but some say “No, this synonym doesn’t need to exist” instead.
+	Why is this synonym necessary? Not clear! Most Infocom games have it (or a variation), but some say “No, this synonym doesn’t need to exist” instead.
 	If you type `EXAMINE MGCKJK`, the parser finds [~obj:local-globals]. But that object is nameless, so you get a garbage reply. Go on, try it.
 
 obj:ADVENTURER: Yes, the player’s printed name is “cretin”, although the game never says so. This sort of sarcastic insult hasn’t aged too well, but MIT culture had a lot of it. Compare [*glob:WINNER], and also the old MIT [Jargon File|https://jargon-file.org/archive/jargon-1.0.0.33.dos.txt].
