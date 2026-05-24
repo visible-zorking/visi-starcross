@@ -54,7 +54,7 @@ glob:ALWAYS-LIT: Whether every location in the game has light.
 glob:LOAD-ALLOWED: The weight limit you can carry. This is always 100.
 
 glob:LOW-DIRECTION: Properties with this value and above are directions.
-	*Starcross* does not define property 22 or 23, so really the directions are 24 and above.
+	*Starcross* declares `LAND` and `CROSS` as properties 22 and 23, but never uses them. So really the directions are 24 and above.
 
 attr:ONBIT: Set for glowing objects and permanently-illuminated rooms.
 
