@@ -1,6 +1,6 @@
 import { unpack_address, ObjectData } from '../visi/gametypes';
 import { GnustoEngine, ZState, ZStatePlus } from '../visi/zstate';
-import { OptPosition, ExtraToggle } from '../visi/map';
+import { OptPosition, ScrollCenterInfo, ExtraToggle } from '../visi/map';
 import { gamedat_ids, gamedat_routine_names, gamedat_global_names, gamedat_string_map, gamedat_object_ids, gamedat_roominfo_names } from '../visi/gamedat';
 
 export function show_commentary_hook(topic: string, engine: GnustoEngine): string|null
@@ -82,7 +82,7 @@ const map_rotations: { [key: string]: number } = {
 const center = { x: 952.49997/2, y: 952.49994/2 };
 const labelcenter = { x:677.3333, y: 597.95819 };
 
-export function map_scrollcenter(zstate: ZStatePlus, locname: string): OptPosition
+export function map_scrollcenter(zstate: ZStatePlus, locname: string): ScrollCenterInfo
 {
     let rot = map_rotations[locname || ''];
     if (rot) {
@@ -95,7 +95,7 @@ export function map_scrollcenter(zstate: ZStatePlus, locname: string): OptPositi
                 x: vec.x * Math.cos(theta) + vec.y * Math.sin(theta),
                 y: vec.y * Math.cos(theta) - vec.x * Math.sin(theta),
             };
-            return { x: res.x + center.x, y: res.y + center.y };
+            return { pos: { x: res.x + center.x, y: res.y + center.y } };
         }
     }
     
