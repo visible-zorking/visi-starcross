@@ -12,7 +12,7 @@
     "builddata": "pnpm run recreate-gamedata && pnpm run rearrange-tables && pnpm run recolor-source && pnpm run regenerate-commentary && pnpm run reparse-map",
     "recreate-gamedata": "python3 visiterp/pyana/parse.py --game starcross-r15-s820901 -z gamesrc/sf.zil --obj --dict --grammar --txd --gamedat",
     "rearrange-tables": "python3 visiterp/pyana/parse.py --game starcross-r15-s820901 -z gamesrc/sf.zil --zcode gamedat/starcross-r15-s820901.z3 --gamedat",
-    "recolor-source": "python3 visiterp/pyana/parse.py --game starcross-r15-s820901 -z gamesrc/sf.zil --src",
+    "recolor-source": "python3 visiterp/pyana/parse.py --game starcross-r15-s820901 -z gamesrc/sf.zil --src --reindent",
     "regenerate-commentary": "python3 visiterp/pyana/comgen.py gamedat/commentary",
     "reparse-map": "python3 visiterp/pyana/mapparse.py gamedat/base-map.svg --game starcross-r15-s820901 -o pic/map2.svg"
   },
