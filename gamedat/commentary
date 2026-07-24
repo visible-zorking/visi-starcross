@@ -38,7 +38,7 @@ obj:ME: A global object which is always in scope. Commands referring to `ME` hit
 	Because of this, parser messages mostly refer to you as “you”, even though the [*obj:ADVENTURER]’s printed name is “cretin”.
 
 glob:WINNER: `WINNER` is the actor in the current command. 
-	`WINNER` is usually [~obj:ADVENTURER], but for a command like `COMPUTER, CINFORM` it shifts to the named NPC.
+	`WINNER` is usually [~obj:ADVENTURER], but for a command like `COMPUTER, CONFIRM` it shifts to the named NPC.
 	“Winner” is just as sarcastic as “[cretin|*obj:ADVENTURER]”, but from the other side.
 
 glob:HERE: The location of the [*glob:WINNER].
