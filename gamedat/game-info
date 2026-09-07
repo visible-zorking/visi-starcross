@@ -506,15 +506,22 @@ Global 178 VERBS  table created from SYNTAX
 
 # Argument type info for routines that are hard to guess.
 
+RoutineType - ACLAUSE-WIN WORD
 RoutineType - CLAUSE - - WORD
+RoutineType - CLAUSE-ADD WORD
+RoutineType - CLAUSE-COPY TABLE TABLE WORD
+RoutineType - DO-SL OBJ SLOCBITS SLOCBITS
 RoutineType - DO-WALK PROP
-RoutineType - GWIM - - PREP
+RoutineType - GWIM ATTRZ SLOCBITS PREP
+RoutineType - HELD? OBJ
+RoutineType - ITAKE-CHECK TABLE SLOCBITS
 RoutineType - LKP OBJ TABLE
+RoutineType - ORPHAN GLINE GLINE
 RoutineType - PERFORM ACTION PERFORMO PERFORMI
 RoutineType - PICK-ONE TABLE
 RoutineType - SYNTAX-FOUND GLINE
 RoutineType - V-CLIMB-UP PROP
-RoutineType - WT? WORD - -
+RoutineType - WT? WORD PSTYPE P1TYPE
 
 RoutineType - AIRLOCK-OPEN OBJ OBJ OBJ
 RoutineType - ALREADY STR OBJ
